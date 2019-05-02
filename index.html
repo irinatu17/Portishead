@@ -13,45 +13,46 @@
 </head>
 
 <body>
+  <div class="wrapper">
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm">
-      <a class="navbar-brand lead navbar-link mr-4" href="index.html">Portishead<i class="fas fa-music"></i>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm header-fixed">
+            <a class="navbar-brand lead navbar-link mr-4" href="index.html">Portishead<i class="fas fa-music"></i>
       </a>
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item mr-2 active uppercase">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item  uppercase">
-            <a class="nav-link mr-2" href="//about">About</a>
-          </li>
-          <li class="nav-item  uppercase">
-            <a class="nav-link mr-2" href="/tours">Tours</a>
-          </li>
-          <li class="nav-item mr-2 dropdown  uppercase">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto uppercase">
+                    <li class="nav-item mr-2 active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-2" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-2" href="tours.html">Tours</a>
+                    </li>
+                    <li class="nav-item mr-2 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Media
         </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="/gallery">Gallery</a>
-              <a class="dropdown-item" href="#">Music</a>
-              <a class="dropdown-item" href="#">Video</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mr-2 d-sm-none d-block" href="/signup">Sign Up!</a>
-          </li>
-        </ul>
-        <div class="d-none d-md-block">
-          <p class="navbar-text my-auto mr-2"><i>Sign up today to be aware of the latest news!</i></p>
-          <a href="/login" class="btn btn-red" data-toggle="modal" data-target="#signUpModal">Sign Up!</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="/gallery">Gallery</a>
+                            <a class="dropdown-item" href="#">Music</a>
+                            <a class="dropdown-item" href="#">Video</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-2 d-sm-none d-block" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up!</a>
+                    </li>
+                </ul>
+                <div class="d-none d-md-block">
+                    <p class="navbar-text my-auto mr-2 d-md-none d-lg-block"><i>Sign up today to be aware of the latest news!</i></p>
+                    <a href="/login" class="btn btn-red " data-toggle="modal" data-target="#signUpModal">Sign Up!</a>
 
-        </div>
-      </div>
-    </nav>
-  </header>
+                </div>
+            </div>
+        </nav>
+    </header>
   <div class="container-fluid home-container">
     <div class="row">
       <div class="col-12 d-flex justify-content-end">
@@ -105,12 +106,12 @@
       <p>© 2019 Portishead. All Rights Reserved</p>
     </div>
   </footer>
-
+</div>
   <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title"><strong>Sign up to Portishead news!</strong></h5>
+          <h5 class="modal-title">Sign up to Portishead news!</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -130,7 +131,7 @@
               <label for="repeatPassword">Repeat Password</label>
               <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Your Password">
             </div>
-            <button type="submit" class="btn btn-success">Submit</button>
+            <button type="submit" class="btn btn-red">Submit</button>
           </form>
         </div>
       </div>
