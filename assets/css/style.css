@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:300,500,700|Indie+Flower:100,200,300,400,500,600,700|PT+Sans:100,200,300,400,500,600,700');
+ body{
+font-family: 'PT+Sans', cursive, sans-serif;
+font-weight: 300;   
+color:white;
+ }
+ .uppercase{
+    text-transform: uppercase;
+}
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-fixed{
+   position: fixed;
+   top: 0;
+   right:0;
+   left: 0;
+   z-index: 1;
+}
+    
+/* Navbar*/
+.navbar-bg{
+background: linear-gradient(grey, black);
+border: 0;
+font-family: 'PT+Sans', sans-serif;
+font-weight: 500;
+
+letter-spacing: 0.1em;
+z-index: 1;
+}
+.navbar-link{
+font-family: 'Indie Flower', cursive, sans-serif;
+font-weight: 700;
+font-size: xx-large;
+margin: 10px 10px;
+}
+.navbar-nav{
+    text-align:center;
+    font-weight:500;
+    
+    
+}
+/* Home */
+.home-container{
+    height: 100vh;
+    margin-top: 90px;
+    
+background: url("../images/Portishead_background.home.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;                       
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+    
+    padding-top: 50px;
+    padding-right: 50px;
+
+position: relative;
+}
+.quote-text{
+    color: white;
+    font-size: larger;
+    height:50vh;
+    top:30%;
+    position:relative;
+   
+}
+/* Colors */
+/* About */
+.container-wrapper-about{
+    
+    background: url("../images/about.backgr.img.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;                       
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+.about-container{
+    height: 100%;
+    padding:120px 40px;
+}  
+.about-first-text{
+ color: white;
+}
+.about-main-text{
+font-family: 'Bitter', sans-serif;
+color: 	black;
+}
+
+.musicians-names{
+    font-family: 'Indie+Flower', cursive, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+figcaption {
+   display: none;
+}
+figure:hover figcaption {
+   display: block;
+}
+ficaption {
+   opacity: 0;
+  -webkit-transition: opacity 0.5s ease-out;  
+     -moz-transition: opacity 0.5s ease-out;  
+      -ms-transition: opacity 0.5s ease-out;  
+       -o-transition: opacity 0.5s ease-out;  
+          transition: opacity 0.5s ease-out;
+}
+figure:hover figcaption {
+   opacity: 1; 
+}
+/* Tours */
+.container-wrapper-tours{
+    background: url("../images/slide1.jpg") no-repeat top center fixed;
+  -webkit-background-size: cover;                       
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+ 
+}
+
+.tours-container{
+height: 100%;
+padding:120px 40px;
+}
+.tours-content{
+    font-size: larger;
+    font-weight:bold;
+}
+.tour-booking-heading{
+    font-family: 'Indie Flower', cursive, sans-serif;
+font-weight: 700;
+font-size: xx-large;
+}
+/* Media */
+.container-wrapper-gallery{
+     background: url("../images/slide3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;                       
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.gallery-container{
+    padding:100px 40px;
+}
+.container-wrapper-music{
+  background: linear-gradient(#A60311, black)  
+}
+.music-container{
+    padding:70px 40px;
+}
+.container-wrapper-video{
+background: url("../images/slide2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;                       
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+.video-container{
+   padding:40px 40px; 
+}
+/* Footer */
+.footer-container{
+ background: linear-gradient(grey, black);
+}
+.footer-heading{
+ text-align: center;   
+ color: white;
+ font-family: 'Bitter', sans-serif;
+font-weight: 500; 
+padding: 20px;
+margin-bottom: 10px;
+}
+.block-divider{
+width: 70px;
+height: 5px;
+border-radius: 10%;
+background-color: #A60311;
+}
+.social-links {
+    padding-bottom: 10px;
+}
+.social-links li a i {
+    width: 60px;
+    height: 60px;
+    padding: 25px 0;
+    border-radius: 50%; 
+    font-size: 30px;
+    line-height: 8px;
+    text-align: center;
+    color: #fafafa;
+    background: black;
+    transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -webkit-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+}
+.social-links li a i:hover {
+    background: #A60311;
+}
+.copyright{
+ font-family:'PT+Sans', sans-serif;
+ font-weight:400;
+ padding-bottom: 10px;
+}
+
+.btn {
+    font-weight: bold;
+    font-family: 'Bitter', sans-serif;
+font-weight: 700;
+    border-radius: 23px;
+    width: 160px;
+}
+.btn-red {
+    color: white;
+    background-color: #A60311;
+    border-color: #A60311;
+}
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #982c16;
+    border-color: #982c16;
+    color: white;
+}
+.modal-content{
+color:black;
+background-color:#fafad2;
+}
+.jumbotron{
+    background-color: rgb(230, 230, 255, 0.9);
+    width:60%;
+    color:black;
+}
