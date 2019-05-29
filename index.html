@@ -13,105 +13,213 @@
 </head>
 
 <body>
-  <div class="wrapper">
-  <header>
-        <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm header-fixed">
-            <a class="navbar-brand lead navbar-link mr-4" href="index.html">Portishead<i class="fas fa-music"></i>
+  <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm header-fixed">
+        <a class="navbar-brand lead navbar-link mr-4" href="index.html">Portishead<i class="fas fa-music"></i>
       </a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span> </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto uppercase">
-                    <li class="nav-item mr-2 active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mr-2" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mr-2" href="tours.html">Tours</a>
-                    </li>
-                    <li class="nav-item mr-2 dropdown">
-                        <a class="nav-link dropdown-toggle" href="media.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto uppercase">
+            <li class="nav-item mr-2 active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-2" href="tours.html">Tours</a>
+            </li>
+            <li class="nav-item mr-2 dropdown">
+              <a class="nav-link dropdown-toggle" href="media.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Media
         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="media.html#gallery">Gallery</a>
-                            <a class="dropdown-item" href="media.html#music">Music</a>
-                            <a class="dropdown-item" href="media.html#video">Video</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mr-2 d-sm-none d-block" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up!</a>
-                    </li>
-                </ul>
-                <div class="d-none d-md-block">
-                    <p class="navbar-text my-auto mr-2 d-md-none d-lg-block"><i>Sign up today to be aware of the latest news!</i></p>
-                    <a href="/login" class="btn btn-red " data-toggle="modal" data-target="#signUpModal">Sign Up!</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="media.html#gallery">Gallery</a>
+                <a class="dropdown-item" href="media.html#music">Music</a>
+                <a class="dropdown-item" href="media.html#video">Video</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-2 d-sm-none d-block" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up!</a>
+            </li>
+          </ul>
+          <div class="d-none d-md-block">
+            <a href="/login" class="btn btn-red " data-toggle="modal" data-target="#signUpModal">Sign Up!</a>
 
-                </div>
-            </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
-  <div class="container-fluid home-container">
-    <div class="row">
-      <div class="col-12 d-flex justify-content-end">
-        <section class="quote-text text-right">
-          <p>"Oh, can't anybody see</p>
-          <p>We've got a war to fight</p>
-          <p>Never found our way</p>
-          <p>Regardless of what they say</p>
-          <p>How can it feel, this wrong</p>
-          <p>From this moment</p>
-          <p>How can it feel, this wrong..."</p>
-          <p><i>(c) Roads, Portishead </i></p>
-        </section>
+    <!-- Home section -->
+    <section class="container-fluid home-container">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-end">
+          <section class="quote-text text-right">
+            <p>"Oh, can't anybody see</p>
+            <p>We've got a war to fight</p>
+            <p>Never found our way</p>
+            <p>Regardless of what they say</p>
+            <p>How can it feel, this wrong</p>
+            <p>From this moment</p>
+            <p>How can it feel, this wrong..."</p>
+            <p><i>(c) Roads, Portishead </i></p>
+          </section>
+        </div>
       </div>
-    </div>
-  </div>
-  <footer class="container-fluid footer-container">
-    <h3 class="footer-heading uppercase">Follow us:</h3>
-    <hr class="block-divider">
-    <div class="row">
-      <div class="col-12 col-sm d-flex justify-content-center">
-        <ul class="list-inline social-links">
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.facebook.com/portishead/">
+    </section>
+    <!-- About section -->
+    <section class="container-wrapper-about">
+      <div class="opaque-overlay">
+        <div class="container-fluid about-container">
+            
+            <article class="info-about">
+                <!-- About-text -->
+                <div class="row mb-4">
+                    <div class="col-lg-12 text-center">
+                        <h3 class="about-first-text uppercase mb-5 mt-4"> <i class="fas fa-history"></i> About us:</h3>
+                        <p class="lead">Portishead is an English band formed in 1991 in Bristol. They are often considered as one of the pioneers of trip hop music. The band is named after the nearby town of the same name, eight miles west of Bristol, along the coast.
+                            Portishead consists of Geoff Barrow, Beth Gibbons and Adrian Utley, while sometimes citing a fourth member, Dave McDonald, an engineer of their first records.</p>
+                        <p class="lead mb-5">Their debut album, Dummy, was met with critical acclaim in 1994. Two other studio albums have been issued: Portishead in 1997 and Third in 2008. </p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-red btn-lg" data-toggle="modal" data-target="#PortisheadAboutMore">
+  Read more
+</button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="PortisheadAboutMore" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header text-center">
+                                        <h5 class="modal-title uppercase font-weight-bold" id="ModalAbout"><i class="fas fa-history"></i> About:</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                                    </div>
+                                    <div class="modal-body about-main-text">
+                                        <p class="font-weight-bold"><br>Dummy (1994)</p>
+                                        <p>Portishead's first album Dummy was released in 1994.The credits indicate that at this juncture, Portishead was a duo of Geoff Barrow and Beth Gibbons. Adrian Utley, who co-produced the album with them, became an official band member shortly after its release. Despite the band's aversion to press coverage, the album was successful in both Europe and the United States (where it sold more than 150,000 copies even before the band toured there). Dummy was positively described by the Melody Maker as "musique noire for a movie not yet made". Rolling Stone praised its music as "Gothic hip-hop". Dummy spawned three singles: "Numb", "Sour Times" and "Glory Box", and won the Mercury Music Prize in 1995. The success of the album saw the band nominated for Best British Newcomer at the 1995 Brit Awards.The album is often considered one of the greatest trip hop albums to date and is a milestone in the definition of the genre.</p>
+                                        <p class="font-weight-bold"><br>Portishead (1997)</p>
+                                            <p>
+                                                After their initial success, Portishead withdrew from the spotlight for three years until their second album, Portishead, was released in 1997. The album's sound differed from Dummy, characterised as "grainy and harsher". Three singles, "All Mine", "Over"
+                                                and "Only You" were released, the first one achieving a Top 10 placing in the UK. In 1997, the band performed a one-off show with strings at the Roseland Ballroom in New York City. A live album primarily
+                                                featuring these new orchestral arrangements of the group's songs was released in 1998. There was also a long-form VHS video of the performance, and a DVD followed in 2002, with substantial extra material
+                                                including many early music videos.
+                                            </p>
+                                            <p class="font-weight-bold"><br> Hiatus (1999–2005)</p>
+                                            <p>
+                                                In 1999, Portishead recorded the song "Motherless Child" with Tom Jones for his album Reload. For the next few years, the band members concentrated on solo and other pursuits. In February 2005, the band appeared live for the first time in seven years
+                                                at the Tsunami Benefit Concert in Bristol. Around that time, Barrow revealed that the band was in the process of writing its third album.
+                                            </p>
+                                            <p class="font-weight-bold"><br> Third (2008)</p>
+                                            <p>
+                                                On 2 October 2007, Portishead stated that the new album Third had been mixed and was nearly complete, and was due for release in early April 2008. The release was later pushed to 28 April. On 8 and 9 December 2007, the band curated the All Tomorrow's Parties festival in Minehead, England. The festival featured their first full live sets in nearly 10 years. They premiered five tracks from the new album: "Silence", "Hunter", "The Rip", "We Carry On", and "Machine Gun". On 21 January 2008, a European tour to support the album was announced, together with a headline spot at the Coachella Valley Music and Arts Festival on 26 April 2008, their only U.S. date on the tour. Third was made available on Last.fm the week before release, attracting 327,000 listeners in just under 24 hours. The album was released on 29 April 2008 to coincide with the band's appearance at Coachella. 
+                                            </p>
+                                            <p class="font-weight-bold"><br> Post-Third (2008–present)</p>
+                                            <p>
+                                                On 18 May 2008, Barrow expressed Portishead's enthusiasm for recording new material on their official website's blog, stating that he "can't wait to write some new tunes". On 28 September 2009, Barrow announced "big plans" for a new project with a new angle, hinting that an album could arrive as soon as late 2010. Whilst the album had yet to materialise, on 9 December 2009, the band released the song "Chase the Tear" for Human Rights Day to raise money for Amnesty International UK.  During Summer 2011, Portishead performed at a number of festivals in Europe. Then they visited several cities in North America during October. They finished their tour with a jaunt to Australia and New Zealand. Barrow stated in a Rolling Stone interview that he would begin work on his portion of the album in January 2012, jokingly pointing out that it could be another decade before a new album is released. In summer 2014, they played several concerts around Europe. Additionally, Portishead produced a cover of ABBA's song "SOS" for the soundtrack to the movie High-Rise which had a Gala screening at the London Film Festival on 9 October 2015. In 2016, the band won an Ivor Novello Award for Outstanding Contribution to British Music. On 22 June 2016, Portishead released an official video for "SOS" that recontextualized the song in the wake of the then-recent murder of MP Jo Cox and the Brexit vote, taking place the next day; the video ends with Beth Gibbons reaching her hand out towards the viewer and then a quote by Cox appears: "We have far more in common than which divides us."
+                                            </p>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Musicians images -->
+                <hr class="block-divider">
+                <div class="row">
+                    <div class="col-12 mt-4 mb-4">
+                        <h3 class="text-center uppercase mb-4">Band's members: </h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <figure>
+                            <img src="assets/images/Beth.Gibbons!.jpg" class="rounded-circle musician-img" height=300 width=300 alt="Beth Gibbons's image">
+                            <h5 class="musicians-names mt-4">Beth Gibbon</h5>
+                            <p>singer and lyricist</p>
+                            <figcaption>
+                      
+                                    <p>She was raised on a small farm with two sisters near Exeter city, England</p>
+                                    <p>She has cited Nina Simone, Janis Joplin, Edith Piaf, Janis Ian and Elizabeth Fraser, as female musical influences.</p>
+                                    <p>Her new album, recorded with the Polish National Radio Symphony Orchestra was released in March 2019. Gibbons had to study Polish language for this performance.</p>
+                              
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-4">
+                        <figure>
+                            <img src="assets/images/Geoff.Barrow!.jpg" class="rounded-circle musician-img" height=300 width=300 alt="Geoff Barrow's image">
+                            <h5 class="musicians-names mt-4">Geoff Barrow</h5>
+                            <p>composer, disc jockey, and multi-instrumentalist</p>
+                            <figcaption>
+                                <p>Barrow is also a member of the band Beak and hip-hop supergroup Quakers and a film score composer.</p>
+                                    <p>"I just wanted to make interesting music, proper songs with a proper life span and a decent place in people's record collections."</p>
+                                        <p class="font-italic">-Geoff Barrow about forming Portishead.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-4">
+                        <figure>
+                            <img src="assets/images/Adrian.Utley.jpg" class="rounded-circle musician-img" height=300 width=300 alt="Adrian Utley's image">
+                            <h5 class="musicians-names mt-4">Adrian Utley </h5>
+                            <p> music producer, composer and multi-instrumentalist</p>
+                            <figcaption>
+                                <p>He built up a collection of vintage instruments and studio equipment, and moved into production and film work</p>
+                                 </p>
+                                    <p>During his career, Utley has recorded with artists as diverse as Marilyn Manson, Jeff Beck, Torres, Perfume Genius, Alain Bashung and Marianne Faithfull, and his film work includes Sound by Nic Roeg and Spiders from
+                                        Mars with David Attenborough.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </article>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="container-fluid footer-container">
+      <h4 class="footer-heading uppercase">Follow us:</h4>
+      <hr class="block-divider">
+      <div class="row">
+        <div class="col-12 col-sm d-flex justify-content-center">
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.facebook.com/portishead/">
                             <i class="fab fa-facebook" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://twitter.com/portisheadinfo">
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://twitter.com/portisheadinfo">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.instagram.com/portisheadmusic/">
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.instagram.com/portisheadmusic/">
                             <i class="fab fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
-          </li>
-          <li class="list-inline-item">
-            <a target="_blank" href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
+            </li>
+            <li class="list-inline-item">
+              <a target="_blank" href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
                             <i class="fab fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-    <div class="copyright text-center">
-      <p>© 2019 Portishead. All Rights Reserved</p>
-    </div>
-  </footer>
-</div>
+      <div class="copyright text-center">
+        <p><small>© 2019 Portishead. All Rights Reserved</small></p>
+      </div>
+    </footer>
+    <!-- Modal to sign up -->
   <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Sign up to Portishead news!</h5>
+          <h5 class="modal-title">Sign up today to be aware of the latest news!</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -120,23 +228,30 @@
           <form>
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
             </div>
             <div class="form-group">
               <label for="repeatPassword">Repeat Password</label>
-              <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Your Password">
+              <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Your Password" required>
             </div>
-            <button type="submit" class="btn btn-red">Submit</button>
+            <div>
+              <p><small>Already our user? <button class="btn btn-secondary btn-small"><small>Login</small></button> instead!</small></p>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-red">Submit</button>
+            </div>
           </form>
         </div>
       </div>
     </div>
   </div>
+  <!-- Scripts -->
+  
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
