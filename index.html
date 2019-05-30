@@ -70,7 +70,6 @@
     <section class="container-wrapper-about">
       <div class="opaque-overlay">
         <div class="container-fluid about-container">
-            
             <article class="info-about">
                 <!-- About-text -->
                 <div class="row mb-4">
@@ -127,7 +126,7 @@
                 </div>
                 <!-- Musicians images -->
                 <hr class="block-divider">
-                <div class="row">
+                <div class="row d-flex justify-content-center">
                     <div class="col-12 mt-4 mb-4">
                         <h3 class="text-center uppercase mb-4">Band's members: </h3>
                 </div>
@@ -146,7 +145,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 text-center">
                         <figure>
                             <img src="assets/images/Geoff.Barrow!.jpg" class="rounded-circle musician-img" height=300 width=300 alt="Geoff Barrow's image">
                             <h5 class="musicians-names mt-4">Geoff Barrow</h5>
@@ -158,7 +157,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 text-center">
                         <figure>
                             <img src="assets/images/Adrian.Utley.jpg" class="rounded-circle musician-img" height=300 width=300 alt="Adrian Utley's image">
                             <h5 class="musicians-names mt-4">Adrian Utley </h5>
@@ -215,7 +214,7 @@
       </div>
     </footer>
     <!-- Modal to sign up -->
-  <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -239,22 +238,21 @@
               <label for="repeatPassword">Repeat Password</label>
               <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Your Password" required>
             </div>
-            <div>
-              <p><small>Already our user? <button class="btn btn-secondary btn-small"><small>Login</small></button> instead!</small></p>
-            </div>
             <div class="text-center">
-              <button type="submit" class="btn btn-red">Submit</button>
+              <button type="submit" class="btn btn-red btn-lg">Submit</button>
             </div>
           </form>
+          <br>
+          <div>
+              <p><small>Already our user? <button class="btn btn-dark btn-small"><small>Login</small></button> instead!</small></p>
+            </div>
         </div>
       </div>
     </div>
   </div>
   <!-- Scripts -->
-  
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
 </html>

@@ -105,11 +105,10 @@ figure:hover figcaption {
 }
 ficaption {
    opacity: 0;
-  -webkit-transition: opacity 0.3s ease-out 0.1s;
-     -moz-transition: opacity 0.3s ease-out 0.1s;
-      -ms-transition: opacity 0.3s ease-out 0.1s;
-       -o-transition: opacity 0.3s ease-out 0.1s;
-          transition: opacity 0.3s ease-out 0.1s;
+  -webkit-transition: opacity  ease-in-out 0.5s;
+     -moz-transition: opacity  ease-in-out 0.5s;
+      -ms-transition: opacity  ease-in-out 0.5s;
+       -o-transition: opacity  ease-in-out 0.5s;
 }
 figure:hover figcaption {
    opacity: 1;
@@ -146,10 +145,16 @@ font-size: xx-large;
   
 }
 .gallery-container{
-    padding:100px 40px;
+    padding:70px 40px;
 }
 .card{
  overflow: hidden;
+}
+.card-gallery{
+   
+}
+.card-img-top{
+    text-align: center;
 }
 .container-wrapper-music{
   background: linear-gradient(#A60311, black);  
@@ -228,9 +233,9 @@ font-weight: 700;
     width: 160px;
 }
 .btn-small{
-    width:80px;
-
-    border-radius:23px;
+    width:60px;
+    height:40px;
+    
     font-family:'Bitter', sans-serif;
     font-weight:300;
 }
