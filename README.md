@@ -41,6 +41,8 @@ The text for section “About” was copied from the Wikipedia article [“Porti
 The photos used in this site were obtained from different websites: Discogs.com(https://www.discogs.com/artist/2774-Portishead), IMDB.com(https://www.imdb.com/name/nm1011954/mediaviewer/rm4271994368), BBC.co.uk (https://www.bbc.co.uk/music/artists/8f6bd1e4-fbe1-4f50-aa9b-94c450ec0f11).
 ### Acknowledgements
 The hover over transition function(section ‘About’) was found through this tutorial [here](https://css-tricks.com/a-really-nice-way-to-handle-popup-information/).
+
 I also received inspiration for this project from my mentor’s [Rahul Lakhanpal](https://www.rahullakhanpal.in/) works. 
+
 **This is for educational use only.**
 
