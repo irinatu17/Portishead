@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 35d6a8ed601edce73519df7c93b34364a3fea1ba
 # Portishead Official Website
 First milestone project: User-Centric Frontend Development - Code Institute.
 
