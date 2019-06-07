@@ -1,4 +1,3 @@
-Portishead - music band website: https://portishead-music-band-website-irinatu.c9users.io/index.html
 
 # Portishead Official Website
 First milestone project: User-Centric Frontend Development - Code Institute.
