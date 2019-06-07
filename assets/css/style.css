@@ -9,14 +9,13 @@ color:white;
 }
 .opaque-overlay {
     position: relative;
-   
     top: 0;
     left: 0;
     width: 100%;
     height:100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
-
+/* Navbar*/
 .header-fixed{
    position: fixed;
    top: 0;
@@ -24,14 +23,11 @@ color:white;
    left: 0;
    z-index: 1;
 }
-    
-/* Navbar*/
 .navbar-bg{
 background: linear-gradient(grey, black);
 border: 0;
 font-family: 'PT+Sans', sans-serif;
 font-weight: 500;
-
 letter-spacing: 0.1em;
 z-index: 1;
 }
@@ -44,8 +40,6 @@ margin: 10px 10px;
 .navbar-nav{
     text-align:center;
     font-weight:500;
-    
-    
 }
 /* Home */
 .home-container{
@@ -57,11 +51,8 @@ background: url("../images/Portishead_background.home.jpg") no-repeat center cen
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
-    
     padding-top: 50px;
     padding-right: 50px;
-
 position: relative;
 }
 .quote-text{
@@ -70,9 +61,7 @@ position: relative;
     height:50vh;
     top:30%;
     position:relative;
-   
 }
-/* Colors */
 /* About */
 .container-wrapper-about{
     background: url("../images/about.backgr.img.jpg") no-repeat center center fixed;
@@ -105,17 +94,17 @@ figure:hover figcaption {
 }
 ficaption {
    opacity: 0;
-  -webkit-transition: opacity  ease-in-out 0.5s;
-     -moz-transition: opacity  ease-in-out 0.5s;
-      -ms-transition: opacity  ease-in-out 0.5s;
-       -o-transition: opacity  ease-in-out 0.5s;
+  -webkit-transition: opacity  ease-out 1s;
+     -moz-transition: opacity  ease-out 1s;
+      -ms-transition: opacity  ease-out 1s;
+       -o-transition: opacity  ease-out 1s;
 }
 figure:hover figcaption {
    opacity: 1;
 }
 /* Tours */
 .container-wrapper-tours{
-    background: url("../images/slide1.jpg") no-repeat top center fixed;
+    background: url("../images/tours-background.jpg") no-repeat top center fixed;
   -webkit-background-size: cover;                       
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -137,7 +126,7 @@ font-size: xx-large;
 }
 /* Media */
 .container-wrapper-gallery{
-     background: url("../images/slide3.jpg") no-repeat center center fixed;
+     background: url("../images/gallery-background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;                       
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -149,9 +138,6 @@ font-size: xx-large;
 }
 .card{
  overflow: hidden;
-}
-.card-gallery{
-   
 }
 .card-img-top{
     text-align: center;
@@ -225,7 +211,7 @@ background-color: #A60311;
  font-weight:400;
  padding-bottom: 10px;
 }
-
+/* Buttons */
 .btn {
     font-family: 'Bitter', sans-serif;
 font-weight: 700;
@@ -270,12 +256,12 @@ background-color:#fafad2;
     .music-player{
         width:100%;
     }
-    .card-gallery{
-       
-    }
 }
 @media (min-width: 768px){
 .jumbotron {
-    width: 60%;
-}
+    width: 60%;}
+.musician-about-img{
+        padding-right: 105px;
+        padding-left: 105px;
+    }
 }
