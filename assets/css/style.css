@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter:300,500,700|Indie+Flower:100,200,300,400,500,600,700|PT+Sans:100,200,300,400,500,600,700');
- body{
-font-family: 'PT+Sans', cursive, sans-serif;
-font-weight: 300;   
-color:white;
+
+body{
+    font-family: 'PT+Sans', cursive, sans-serif;
+    font-weight: 300;   
+    color:white;
  }
+
  .uppercase{
     text-transform: uppercase;
 }
+
 .opaque-overlay {
     position: relative;
     top: 0;
@@ -15,7 +18,9 @@ color:white;
     height:100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
 /* Navbar*/
+
 .header-fixed{
    position: fixed;
    top: 0;
@@ -23,38 +28,44 @@ color:white;
    left: 0;
    z-index: 1;
 }
+
 .navbar-bg{
-background: linear-gradient(grey, black);
-border: 0;
-font-family: 'PT+Sans', sans-serif;
-font-weight: 500;
-letter-spacing: 0.1em;
-z-index: 1;
+    background: linear-gradient(grey, black);
+    border: 0;
+    font-family: 'PT+Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    z-index: 1;
 }
+
 .navbar-link{
-font-family: 'Indie Flower', cursive, sans-serif;
-font-weight: 700;
-font-size: xx-large;
-margin: 10px 10px;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    margin: 10px 10px;
 }
+
 .navbar-nav{
     text-align:center;
     font-weight:500;
 }
+
 /* Home */
+
 .home-container{
     height: 100vh;
     margin-top: 90px;
     
-background: url("../images/Portishead_background.home.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;                       
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url("../images/Portishead_background.home.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;                       
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding-top: 50px;
     padding-right: 50px;
-position: relative;
+    position: relative;
 }
+
 .quote-text{
     color: white;
     font-size: larger;
@@ -62,46 +73,38 @@ position: relative;
     top:30%;
     position:relative;
 }
+
 /* About */
+
 .container-wrapper-about{
     background: url("../images/about.backgr.img.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;                       
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;                       
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 .about-container{
     height: 100%;
     padding: 50px;
 }  
+
 .about-first-text{
- color: white;
+    color: white;
 }
+
 .about-main-text{
-font-family: 'Bitter', sans-serif;
-color: 	black;
+    font-family: 'Bitter', sans-serif;
+    color: 	black;
 }
+
 .musicians-names{
     font-family: 'Indie+Flower', cursive, sans-serif;
     font-weight: 700;
     color: white;
 }
-figcaption {
-   display: none;
-}
-figure:hover figcaption {
-   display: block;
-}
-ficaption {
-   opacity: 0;
-  -webkit-transition: opacity  ease-out 1s;
-     -moz-transition: opacity  ease-out 1s;
-      -ms-transition: opacity  ease-out 1s;
-       -o-transition: opacity  ease-out 1s;
-}
-figure:hover figcaption {
-   opacity: 1;
-}
+
+
 /* Tours */
 .container-wrapper-tours{
     background: url("../images/tours-background.jpg") no-repeat top center fixed;
