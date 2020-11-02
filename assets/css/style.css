@@ -108,46 +108,51 @@ body{
 /* Tours */
 .container-wrapper-tours{
     background: url("../images/tours-background.jpg") no-repeat top center fixed;
-  -webkit-background-size: cover;                       
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;                       
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .tours-container{
-height: 100%;
-padding:90px 40px;
+    height: 100%;
+    padding:90px 40px;
 }
+
 .tours-content{
     font-size: larger;
     font-weight:bold;
 }
+
 .tour-booking-heading{
     font-family: 'Indie Flower', cursive, sans-serif;
-font-weight: 700;
-font-size: xx-large;
+    font-weight: 700;
+    font-size: xx-large;
 }
+
 /* Media */
 .container-wrapper-gallery{
-     background: url("../images/gallery-background.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;                       
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
+    background: url("../images/gallery-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;                       
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 .gallery-container{
     padding:70px 40px;
 }
-.card{
- overflow: hidden;
-}
+
+
+
 .card-img-top{
-    text-align: center;
+    object-fit: cover;
 }
+
 .container-wrapper-music{
-  background: linear-gradient(#A60311, black);  
+    background: linear-gradient(#A60311, black);  
 }
+
 .music-container{
     padding:70px 40px;
 }
