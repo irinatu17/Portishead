@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter:300,500,700|Indie+Flower:100,200,300,400,500,600,700|PT+Sans:100,200,300,400,500,600,700');
 
+/* Colour and Font Variables */
+:root {
+--color-primary: #A60311; 
+--color-primary-dark: rgb(138, 9, 20);
+
+}
+
 body{
     font-family: 'PT+Sans', cursive, sans-serif;
     font-weight: 300;   
-    color:white;
+    color:#fff;
  }
 
  .uppercase{
@@ -30,8 +37,8 @@ body{
 }
 
 .navbar-bg{
-    background: linear-gradient(grey, black);
-    border: 0;
+    background: linear-gradient(grey, #000);
+    border: none;
     font-family: 'PT+Sans', sans-serif;
     font-weight: 500;
     letter-spacing: 0.1em;
@@ -53,7 +60,7 @@ body{
 /* Home */
 
 .home-container{
-    height: 100vh;
+    height: 90vh;
     margin-top: 90px;
     
     background: url("../images/Portishead_background.home.jpg") no-repeat center center fixed;
@@ -67,7 +74,7 @@ body{
 }
 
 .quote-text{
-    color: white;
+    color: #fff;
     font-size: larger;
     height:50vh;
     top:30%;
@@ -90,18 +97,18 @@ body{
 }  
 
 .about-first-text{
-    color: white;
+    color: #fff;
 }
 
 .about-main-text{
     font-family: 'Bitter', sans-serif;
-    color: 	black;
+    color: 	#000;
 }
 
 .musicians-names{
     font-family: 'Indie+Flower', cursive, sans-serif;
     font-weight: 700;
-    color: white;
+    color: #fff;
 }
 
 
@@ -114,24 +121,24 @@ body{
     background-size: cover;
 }
 
-.tours-container{
+.tours-container {
     height: 100%;
     padding:90px 40px;
 }
 
-.tours-content{
+.tours-content {
     font-size: larger;
     font-weight:bold;
 }
 
-.tour-booking-heading{
+.tour-booking-heading {
     font-family: 'Indie Flower', cursive, sans-serif;
     font-weight: 700;
     font-size: xx-large;
 }
 
 /* Media */
-.container-wrapper-gallery{
+.container-wrapper-gallery {
     background: url("../images/gallery-background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;                       
     -moz-background-size: cover;
@@ -143,48 +150,55 @@ body{
     padding:70px 40px;
 }
 
-
-
-.card-img-top{
+.card-img-top {
     object-fit: cover;
 }
 
-.container-wrapper-music{
-    background: linear-gradient(#A60311, black);  
+.container-wrapper-music {
+    background: linear-gradient(var(--color-primary), #000);  
 }
 
-.music-container{
+.music-container {
     padding:70px 40px;
 }
-.container-wrapper-video{
-background: url("../images/video-background.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;                       
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;}
 
-.video-container{
+.container-wrapper-video {
+    background: url("../images/video-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;                       
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+
+
+.video-container {
    padding:40px 40px; 
 }
+
+
 /* Footer */
-.footer-container{
- background: linear-gradient(grey, black);
+.footer-container {
+    background: linear-gradient(#808080, #000);
 }
-.footer-heading{
- text-align: center;   
- color: white;
- font-family: 'Bitter', sans-serif;
-font-weight: 500; 
-padding: 10px 0 5px 0;}
-.block-divider{
-width: 70px;
-height: 5px;
-border-radius: 10%;
-background-color: #A60311;
+
+.footer-heading {
+    text-align: center;   
+    color: #fff;
+    font-family: 'Bitter', sans-serif;
+    font-weight: 500; 
+    padding: 10px 0 5px 0;
 }
+
+.block-divider {
+    width: 70px;
+    height: 5px;
+    border-radius: 10%;
+    background-color: var(--color-primary);
+}
+
 .social-links {
     padding-bottom: 5px;
 }
+
 .social-links li a i {
     width: 50px;
     height: 50px;
@@ -194,81 +208,104 @@ background-color: #A60311;
     line-height: 3px;
     text-align: center;
     color: #fafafa;
-    background: black;
+    background: #000;
     transition: all 0.45s ease-in-out;
     -moz-transition: all 0.45s ease-in-out;
     -webkit-transition: all 0.45s ease-in-out;
     -o-transition: all 0.45s ease-in-out;
 }
+
 .fa-facebook:hover {
     background: #3b5998;
 }
+
 .fa-twitter:hover {
     background: #00aced;
 }
 
 .fa-instagram:hover {
     background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
+
 .fa-youtube:hover {
     background: #bb0000;
 }
+
 .copyright{
- font-family:'PT+Sans', sans-serif;
- font-weight:400;
- padding-bottom: 10px;
+    font-family:'PT+Sans', sans-serif;
+    font-weight:400;
+    padding-bottom: 10px;
 }
+
+
 /* Buttons */
 .btn {
     font-family: 'Bitter', sans-serif;
-font-weight: 700;
+    font-weight: 700;
     border-radius: 23px;
     width: 160px;
 }
-.btn-small{
+
+.btn-small {
     width:60px;
     height:40px;
-    
     font-family:'Bitter', sans-serif;
     font-weight:300;
 }
-.btn-red {
-    color: white;
-    background-color: #A60311;
-    border-color: #A60311;
+
+.btn-red,
+ .btn-red:link,
+ .btn-red:visited{
+    color: #fff;
+    background-color: var(--color-primary);
+    border: none;
+    transition: all .2s;
 }
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #982c16;
-    border-color: #982c16;
-    color: white;
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus {
+    background-color: var(--color-primary-dark);
+    transform: scale(1.05) translateY(-1px);
+    outline: none;
+    color: #fff;
+    border: none;
 }
+
+
+
 .modal-content{
-color:black;
-background-color:#fafad2;
+    color:#000;
+    background-color:#fafad2;
 }
+
 .jumbotron{
     background-color: rgba(230, 230, 255, 0.9);
-    width:90%;
-    color:black;
+    width: 90%;
+    color:#000;
 }
+
 @media (min-width: 768px) and (max-width: 991px)  {
-    .musician-img{
+
+    .musician-img {
         height: 220px;
         width: 220px;
         margin:5px;
     }
-    .music-player{
+
+    .music-player {
         width:100%;
     }
 }
+
 @media (min-width: 768px){
-.jumbotron {
-    width: 60%;}
-.musician-about-img{
+
+    .jumbotron {
+        width: 60%;
+    }
+
+    .musician-about-img {
         padding-right: 105px;
         padding-left: 105px;
     }
