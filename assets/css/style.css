@@ -13,7 +13,7 @@ body{
     color:#fff;
  }
 
- .uppercase{
+.uppercase{
     text-transform: uppercase;
 }
 
@@ -43,6 +43,11 @@ body{
     font-weight: 500;
     letter-spacing: 0.1em;
     z-index: 1;
+}
+
+.logo {
+    display: block;
+    width: 10rem;
 }
 
 .navbar-link{
