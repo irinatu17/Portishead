@@ -4,13 +4,16 @@
 :root {
 --color-primary: #A60311; 
 --color-primary-dark: rgb(138, 9, 20);
-
+--font-primary: 'PT+Sans', cursive, sans-serif;
 }
 
+/* GENERAL SETTINGS */
+
 body{
-    font-family: 'PT+Sans', cursive, sans-serif;
+    font-family: var(--font-primary);
     font-weight: 300;   
     color:#fff;
+    background-color: #000;
  }
 
 .uppercase{
@@ -26,8 +29,7 @@ body{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* Navbar*/
-
+/* NAVBAR*/
 .header-fixed{
    position: fixed;
    top: 0;
@@ -62,31 +64,74 @@ body{
     font-weight:500;
 }
 
-/* Home */
+/* HOME PAGE*/
 
 .home-container{
-    height: 90vh;
-    margin-top: 90px;
-    
-    background: url("../images/Portishead_background.home.jpg") no-repeat center center fixed;
+    height: 100vh;
+    background: url("../images/home-bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;                       
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 50px;
-    padding-right: 50px;
     position: relative;
 }
 
-.quote-text{
-    color: #fff;
-    font-size: larger;
-    height:50vh;
-    top:30%;
-    position:relative;
+.home-heading-container {
+    height: inherit;
+    backface-visibility: hidden;
 }
 
-/* About */
+.home-heading {
+    margin-top: -3rem;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 400;
+    font-family: 'Indie+Flower';
+    animation: moveInLeft 1s ease-out;
+}
+
+  
+@keyframes moveInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80%{
+        transform: translateX(1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.quote-text{
+    bottom: .3rem;
+    right: 2rem;
+    text-align: right;
+    position: absolute;
+    animation: moveInRight 1s ease-out;
+}
+
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(2rem);
+    }
+
+    80%{
+        transform: translateX(-1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ABOUT  */
 
 .container-wrapper-about{
     background: url("../images/about.backgr.img.jpg") no-repeat center center fixed;
@@ -314,4 +359,16 @@ body{
         padding-right: 105px;
         padding-left: 105px;
     }
+
+
+}
+
+
+@media (min-width: 991px){ 
+
+    .home-heading {
+        font-size: 3.7rem;
+        letter-spacing: 1.1rem;
+    }
+
 }
