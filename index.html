@@ -42,11 +42,11 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link mr-2 d-sm-none d-block" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up!</a>
+            <a class="nav-link mr-2 d-block d-md-none" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
           </li>
         </ul>
         <div class="d-none d-md-block">
-          <a href="/login" class="btn btn-red " data-toggle="modal" data-target="#signUpModal">Sign Up!</a>
+          <a href="/login" class="btn btn-red " data-toggle="modal" data-target="#signUpModal">Sign Up</a>
         </div>
       </div>
     </nav>
@@ -54,27 +54,29 @@
 
 
   <!-- Home section -->
-  <section class="container-fluid home-container">
+  <section class="container-fluid" id="home-container">
     <div class="home-heading-container d-flex justify-content-center align-items-center">
         <h1 class="home-heading">Portishead</h1>
     </div>
-        <div class="quote-text">
-          <p>"Oh, can't anybody see </br>
-            We've got a war to fight</br>
-            Never found our way</br>
-            Regardless of what they say</br>
-            How can it feel, this wrong</br>
-            From this moment</br>
-            How can it feel, this wrong..."</p>
-           <p class="text-muted">(c) Roads, Portishead </p>
+    <div class="quote-text">
+      <p>"Oh, can't anybody see </br>
+        We've got a war to fight</br>
+        Never found our way</br>
+        Regardless of what they say</br>
+        How can it feel, this wrong</br>
+        From this moment</br>
+        How can it feel, this wrong..."</p>
+        <p class="text-muted">(c) Roads, Portishead </p>
+        <!-- <a href="#about-section"  class="d-block d-md-none"><span></span></a> -->
     </div>
+    <a href="#about-section"  class=""><span></span></a>
   </section>
 
 
   <!-- About section -->
   <section class="container-wrapper-about" id="about-section">
-    <div class="opaque-overlay">
-      <div class="container-fluid about-container">
+    <div>
+      <div class="container-fluid about-container" >
         <!-- About-text -->
         <div class="row mb-4">
           <div class="col-lg-12 text-center">
@@ -269,6 +271,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

@@ -25,7 +25,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height:100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -66,7 +66,7 @@ body{
 
 /* HOME PAGE*/
 
-.home-container{
+#home-container{
     height: 100vh;
     background: url("../images/home-bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;                       
@@ -82,7 +82,7 @@ body{
 }
 
 .home-heading {
-    margin-top: -3rem;
+    margin-top: -6rem;
     text-transform: uppercase;
     display: block;
     font-weight: 400;
@@ -108,8 +108,9 @@ body{
 }
 
 .quote-text{
-    bottom: .3rem;
-    right: 2rem;
+    font-size: .9rem;
+    bottom: 10%;
+    right: 1rem;
     text-align: right;
     position: absolute;
     animation: moveInRight 1s ease-out;
@@ -131,14 +132,60 @@ body{
     }
 }
 
+#home-container a span {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-left: -1rem;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: arrow-animation 2s infinite;
+    animation: arrow-animation 2s infiite;
+}
+
+@keyframes arrow-animation {
+    0% {
+      transform: rotate(-45deg) translate(0, 0);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(-45deg) translate(-1rem, 1rem);
+      opacity: 0;
+    }
+  }
+
 /* ABOUT  */
 
 .container-wrapper-about{
-    background: url("../images/about.backgr.img.jpg") no-repeat center center fixed;
+    background-image:  linear-gradient(
+        to right bottom,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.8)), 
+         url("../images/about.backgr.img.jpg");
     -webkit-background-size: cover;                       
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 6.1rem;
+}
+
+.opaque-overlay-about {
+    position: relative;
+    top: -6.1rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .about-container{
@@ -360,6 +407,26 @@ body{
         padding-left: 105px;
     }
 
+    .home-heading {
+        margin-top: -3rem;
+    }
+
+    .quote-text{
+        bottom: .3rem;
+        right: 2rem;
+        font-size: 1rem;
+    }
+
+    #home-container{
+        height: 95vh;
+    }
+
+    #home-container a span {
+        top: 85%;
+        left: 50%;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
 
 }
 
