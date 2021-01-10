@@ -297,19 +297,19 @@ body{
 }
 
 .social-links li a i {
-    width: 50px;
-    height: 50px;
-    padding: 25px 0;
+    width: 2.18rem;
+    height: 2.18rem;
+    padding: 1rem 0;
     border-radius: 50%; 
-    font-size: 25px;
+    font-size: 1.1rem;
     line-height: 3px;
     text-align: center;
     color: #fafafa;
     background: #000;
-    transition: all 0.45s ease-in-out;
-    -moz-transition: all 0.45s ease-in-out;
-    -webkit-transition: all 0.45s ease-in-out;
-    -o-transition: all 0.45s ease-in-out;
+    transition: all 0.55s ease-in-out;
+    -moz-transition: all 0.55s ease-in-out;
+    -webkit-transition: all 0.55s ease-in-out;
+    -o-transition: all 0.55s ease-in-out;
 }
 
 .fa-facebook:hover {
@@ -322,7 +322,9 @@ body{
 
 .fa-instagram:hover {
     background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: radial-gradient(circle at 30% 107%,
+                     #fdf497 0%, #fdf497 5%, #fd5949 45%,
+                     #d6249f 60%,#285AEB 90%);
 }
 
 .fa-youtube:hover {
@@ -333,6 +335,11 @@ body{
     font-family:'PT+Sans', sans-serif;
     font-weight:400;
     padding-bottom: 10px;
+}
+
+.footer-author-link,
+.footer-author-link:hover {
+    text-decoration: none;
 }
 
 
