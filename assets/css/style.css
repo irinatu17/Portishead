@@ -4,19 +4,19 @@
 :root {
 --color-primary: #A60311; 
 --color-primary-dark: rgb(138, 9, 20);
---font-primary: 'PT+Sans', cursive, sans-serif;
+--font-primary: 'PT+Sans', sans-serif;
 }
 
 /* GENERAL SETTINGS */
 
-body{
+body {
     font-family: var(--font-primary);
     font-weight: 300;   
     color:#fff;
     background-color: #000;
  }
 
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
 
@@ -29,21 +29,62 @@ body{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+.block-divider {
+    width: 4.5rem;
+    height: .3rem;
+    border-radius: 10%;
+    background-color: var(--color-primary);
+}
+
+/* BUTTONS */
+.btn {
+    font-family: 'Bitter', sans-serif;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    width: 10rem;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-small {
+    width: 3.65rem;
+}
+
+.btn-red,
+.btn-red:link,
+.btn-red:visited{
+    color: #fff;
+    background-color: var(--color-primary);
+    border: none;
+    transition: all .2s;
+}
+
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus {
+    background-color: var(--color-primary-dark);
+    transform: scale(1.05) translateY(-1px);
+    color: #fff;
+}
+
 /* NAVBAR*/
 .header-fixed{
    position: fixed;
    top: 0;
    right:0;
-   left: 0;
-   z-index: 1;
+   width: 100%;
+   z-index: 11;
 }
 
-.navbar-bg{
-    background: linear-gradient(grey, #000);
+.navbar-bg {
+    background: linear-gradient(#808080, #000);
     border: none;
-    font-family: 'PT+Sans', sans-serif;
     font-weight: 500;
-    letter-spacing: 0.1em;
+    letter-spacing: 1.5px;
     z-index: 1;
 }
 
@@ -52,21 +93,14 @@ body{
     width: 10rem;
 }
 
-.navbar-link{
-    font-family: 'Indie Flower', cursive, sans-serif;
-    font-weight: 700;
-    font-size: xx-large;
-    margin: 10px 10px;
+.navbar-nav {
+    text-align: center;
+    font-weight: 500;
 }
 
-.navbar-nav{
-    text-align:center;
-    font-weight:500;
-}
 
 /* HOME PAGE*/
-
-#home-container{
+#home-container {
     height: 100vh;
     background: url("../images/home-bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;                       
@@ -91,24 +125,25 @@ body{
 }
 
   
-@keyframes moveInLeft{
-    0%{
+@keyframes moveInLeft {
+    0% {
         opacity: 0;
         transform: translateX(-10rem);
     }
 
-    80%{
+    80% {
         transform: translateX(1rem);
     }
 
-    100%{
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
 }
 
-.quote-text{
+.quote-text {
     font-size: .9rem;
+    font-family: 'PT+Sans', cursive, sans-serif;
     bottom: 10%;
     right: 1rem;
     text-align: right;
@@ -116,17 +151,17 @@ body{
     animation: moveInRight 1s ease-out;
 }
 
-@keyframes moveInRight{
-    0%{
+@keyframes moveInRight {
+    0% {
         opacity: 0;
         transform: translateX(2rem);
     }
 
-    80%{
+    80% {
         transform: translateX(-1rem);
     }
 
-    100%{
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
@@ -161,9 +196,9 @@ body{
     }
   }
 
-/* ABOUT  */
 
-.container-wrapper-about{
+/* ABOUT  */
+.container-wrapper-about {
     background-image:  linear-gradient(
         to right bottom,
         rgba(0, 0, 0, 0.7),
@@ -176,41 +211,27 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding-top: 6.1rem;
+    padding-top: 3rem;
 }
 
-.opaque-overlay-about {
-    position: relative;
-    top: -6.1rem;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+.mobile-content {
+    background-color: rgba(250, 250, 241, 0.918);
 }
 
-.about-container{
-    height: 100%;
-    padding: 50px;
-}  
-
-.about-first-text{
-    color: #fff;
+.modal-title,
+.mobile-content,
+.modal-body {
+    color:#000;
 }
 
-.about-main-text{
-    font-family: 'Bitter', sans-serif;
-    color: 	#000;
-}
-
-.musicians-names{
+.musicians-names {
     font-family: 'Indie+Flower', cursive, sans-serif;
-    font-weight: 700;
-    color: #fff;
+    font-weight: 500;
 }
 
 
-/* Tours */
-.container-wrapper-tours{
+/* TOURS PAGE */
+.container-wrapper-tours {
     background: url("../images/tours-background.jpg") no-repeat top center fixed;
     -webkit-background-size: cover;                       
     -moz-background-size: cover;
@@ -234,7 +255,13 @@ body{
     font-size: xx-large;
 }
 
-/* Media */
+.jumbotron{
+    background-color: rgba(230, 230, 255, 0.9);
+    width: 90%;
+    color:#000;
+}
+
+/* MEDIA PAGE */
 .container-wrapper-gallery {
     background: url("../images/gallery-background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;                       
@@ -243,7 +270,7 @@ body{
     background-size: cover;
 }
 
-.gallery-container{
+.gallery-container {
     padding:70px 40px;
 }
 
@@ -272,28 +299,9 @@ body{
 }
 
 
-/* Footer */
+/* FOOTER */
 .footer-container {
     background: linear-gradient(#808080, #000);
-}
-
-.footer-heading {
-    text-align: center;   
-    color: #fff;
-    font-family: 'Bitter', sans-serif;
-    font-weight: 500; 
-    padding: 10px 0 5px 0;
-}
-
-.block-divider {
-    width: 70px;
-    height: 5px;
-    border-radius: 10%;
-    background-color: var(--color-primary);
-}
-
-.social-links {
-    padding-bottom: 5px;
 }
 
 .social-links li a i {
@@ -331,7 +339,7 @@ body{
     background: #bb0000;
 }
 
-.copyright{
+.disclaimer{
     font-family:'PT+Sans', sans-serif;
     font-weight:400;
     padding-bottom: 10px;
@@ -342,78 +350,10 @@ body{
     text-decoration: none;
 }
 
+/* MEDIA QUERIES */
 
-/* Buttons */
-.btn {
-    font-family: 'Bitter', sans-serif;
-    font-weight: 700;
-    border-radius: 23px;
-    width: 160px;
-}
-
-.btn-small {
-    width:60px;
-    height:40px;
-    font-family:'Bitter', sans-serif;
-    font-weight:300;
-}
-
-.btn-red,
- .btn-red:link,
- .btn-red:visited{
-    color: #fff;
-    background-color: var(--color-primary);
-    border: none;
-    transition: all .2s;
-}
-
-.btn-red:hover,
-.btn-red:active,
-.btn-red:focus {
-    background-color: var(--color-primary-dark);
-    transform: scale(1.05) translateY(-1px);
-    outline: none;
-    color: #fff;
-    border: none;
-}
-
-
-
-.modal-content{
-    color:#000;
-    background-color:#fafad2;
-}
-
-.jumbotron{
-    background-color: rgba(230, 230, 255, 0.9);
-    width: 90%;
-    color:#000;
-}
-
-@media (min-width: 768px) and (max-width: 991px)  {
-
-    .musician-img {
-        height: 220px;
-        width: 220px;
-        margin:5px;
-    }
-
-    .music-player {
-        width:100%;
-    }
-}
-
+/*Tablet media queries*/
 @media (min-width: 768px){
-
-    .jumbotron {
-        width: 60%;
-    }
-
-    .musician-about-img {
-        padding-right: 105px;
-        padding-left: 105px;
-    }
-
     .home-heading {
         margin-top: -3rem;
     }
@@ -435,9 +375,12 @@ body{
         height: 1.8rem;
     }
 
+    .jumbotron {
+        width: 60%;
+    }
 }
 
-
+/*Desktop media queries*/
 @media (min-width: 991px){ 
 
     .home-heading {
