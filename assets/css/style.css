@@ -239,6 +239,7 @@ body {
 
 .musician-img {
     border-radius: 50%;
+    object-fit: cover;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: all .5s ease-in-out;
