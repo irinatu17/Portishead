@@ -40,18 +40,12 @@ body {
 .btn {
     font-family: 'Bitter', sans-serif;
     font-weight: 700;
-    border-radius: 1.5rem;
-    width: 10rem;
 }
 
 .btn:focus,
 .btn:active {
     outline: none;
     box-shadow: none;
-}
-
-.btn-small {
-    width: 3.65rem;
 }
 
 .btn-red,
@@ -61,6 +55,8 @@ body {
     background-color: var(--color-primary);
     border: none;
     transition: all .2s;
+    border-radius: 1.5rem;
+    width: 10rem;
 }
 
 .btn-red:hover,
@@ -76,6 +72,17 @@ body {
     background-color: rgba(235, 230, 229, 0.904);
     border: none;
     width: auto;
+    border-radius: 1.5rem;
+}
+
+.btn-signup {
+    color: #fff;
+    background-color: var(--color-primary);
+}
+
+.btn-signup:hover {
+    color: #fff;
+    background-color: var(--color-primary-dark);
 }
 
 /* NAVBAR*/
@@ -272,6 +279,39 @@ body {
     transform: translate(-50%, -50%);
 }
 
+/*SIGN UP MODAL*/
+
+.signup-modal-heading {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family: 'Bitter', sans-serif;
+}
+
+.signup-modal-paragraph {
+    color: #000;
+    font-family: 'Bitter', sans-serif;
+    font-size: 1.1rem;
+}
+
+input[type=email]{
+    border: 1px solid #a8a7a7c2;
+    border-radius: 2px;
+    box-shadow: none;
+    width: 55% !important;
+    font-family: 'Bitter', sans-serif;
+}
+
+input[type=email]:focus {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .1);
+    outline: none;
+    border: 1px solid #a7a8a7c2;
+    border-bottom: 3px solid #087008c2;
+}
+
+input[type=email]:focus:invalid {
+    border-bottom: 3px solid #f30505c2;
+}
 
 /* TOURS PAGE */
 .container-wrapper-tours {
@@ -394,6 +434,11 @@ body {
 }
 
 /* MEDIA QUERIES */
+@media (min-width: 375px){
+    input[type=email]{
+        width: 65% !important;
+    }
+}
 
 /*Tablet media queries*/
 @media (min-width: 768px){
@@ -420,6 +465,10 @@ body {
 
     .jumbotron {
         width: 60%;
+    }
+
+    input[type=email]{
+        width: 75% !important;
     }
 }
 
