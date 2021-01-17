@@ -14,7 +14,12 @@ body {
     font-weight: 300;   
     color:#fff;
     background-color: #000;
- }
+}
+
+h1 {
+    font-size: 2.6rem;
+    letter-spacing: 3px;
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -324,12 +329,7 @@ input[type=email]:focus:invalid {
 
 .tours-container {
     height: 100%;
-    padding:90px 40px;
-}
-
-.tours-content {
-    font-size: larger;
-    font-weight:bold;
+    padding-top: 8rem;
 }
 
 .tour-booking-heading {
@@ -434,6 +434,8 @@ input[type=email]:focus:invalid {
 }
 
 /* MEDIA QUERIES */
+
+/*Mobile media queries*/
 @media (min-width: 375px){
     input[type=email]{
         width: 65% !important;
