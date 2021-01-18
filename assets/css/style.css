@@ -291,7 +291,7 @@ h1 {
 
 /*SIGN UP MODAL*/
 
-.signup-modal-heading {
+.modal-heading {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 1.3rem;
@@ -304,7 +304,19 @@ h1 {
     font-size: 1.1rem;
 }
 
-input[type=email]{
+textarea#enquiry.form-control {
+    border: 1px solid #a8a7a7c2;
+    border-radius: 2px;
+    font-family: 'Bitter', sans-serif;
+}
+
+textarea#enquiry.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input[type=email],
+input[type=text]{
     border: 1px solid #a8a7a7c2;
     border-radius: 2px;
     box-shadow: none;
@@ -312,14 +324,21 @@ input[type=email]{
     font-family: 'Bitter', sans-serif;
 }
 
-input[type=email]:focus {
+input#name.form-control,
+input#email.form-control {
+    width: 100% !important;
+}
+
+input[type=email]:focus,
+input[type=text]:focus  {
     box-shadow: 0 3px 6px rgba(0, 0, 0, .1);
     outline: none;
     border: 1px solid #a7a8a7c2;
     border-bottom: 3px solid #087008c2;
 }
 
-input[type=email]:focus:invalid {
+input[type=email]:focus:invalid,
+input[type=text]:focus:invalid {
     border-bottom: 3px solid #f30505c2;
 }
 
@@ -340,12 +359,12 @@ input[type=email]:focus:invalid {
 .tour-booking-heading {
     font-family: 'Indie Flower', cursive, sans-serif;
     font-weight: 700;
-    font-size: xx-large;
+    font-size: 1.65rem;
 }
 
 .jumbotron{
-    background-color: rgba(230, 230, 255, 0.9);
-    width: 90%;
+    background-color: rgba(241, 241, 255, 0.808);
+    width: 95%;
     color:#000;
 }
 
@@ -487,4 +506,11 @@ input[type=email]:focus:invalid {
         letter-spacing: 1.1rem;
     }
 
+    .jumbotron-paragraph {
+        font-size: 1.3rem;
+    }
+
+    .tour-booking-heading {
+        font-size: 2rem;
+    }
 }
