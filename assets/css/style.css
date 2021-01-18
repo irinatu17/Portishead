@@ -53,9 +53,9 @@ h1 {
     box-shadow: none;
 }
 
-.btn-red,
-.btn-red:link,
-.btn-red:visited{
+.btn-red-primary,
+.btn-red-primary:link,
+.btn-red-primary:visited{
     color: #fff;
     background-color: var(--color-primary);
     border: none;
@@ -64,9 +64,9 @@ h1 {
     width: 10rem;
 }
 
-.btn-red:hover,
-.btn-red:active,
-.btn-red:focus {
+.btn-red-primary:hover,
+.btn-red-primary:active,
+.btn-red-primary:focus {
     background-color: var(--color-primary-dark);
     transform: scale(1.05) translateY(-1px);
     color: #fff;
@@ -80,15 +80,20 @@ h1 {
     border-radius: 1.5rem;
 }
 
-.btn-signup {
+.btn-red-secondary {
     color: #fff;
     background-color: var(--color-primary);
 }
 
-.btn-signup:hover {
+.btn-red-secondary:hover {
     color: #fff;
     background-color: var(--color-primary-dark);
 }
+
+.disabled {
+    cursor: default !important;
+}
+
 
 /* NAVBAR*/
 .header-fixed{
