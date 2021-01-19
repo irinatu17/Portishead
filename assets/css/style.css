@@ -396,6 +396,7 @@ input[type=text]:focus:invalid {
 
 .music-player {
     border: none;
+    width: 100%;
 }
 
 .container-wrapper-video {
@@ -507,6 +508,10 @@ input[type=text]:focus:invalid {
     input[type=email]{
         width: 75% !important;
     }
+
+    .music-container {
+        max-width: 991px;
+    }
 }
 
 /*Desktop media queries*/
@@ -523,5 +528,16 @@ input[type=text]:focus:invalid {
 
     .tour-booking-heading {
         font-size: 2rem;
+    }
+}
+
+/*Large screens media queries*/
+@media (min-width: 1700px){ 
+    .container {
+        max-width: 85%;
+    }
+
+    .music-container {
+        max-width: 70%;
     }
 }
