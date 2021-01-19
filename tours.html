@@ -207,7 +207,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="email">E-mail:</label>
-                                            <input type="email" class="form-control" id="email" name="email"  aria-describedby="emailHelp" placeholder="Enter your email" required>
+                                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="name">Your enquiry:</label>
@@ -270,26 +270,26 @@
 
     <!-- SignUp modal -->
     <div class="modal  fade" tabindex="-1" role="dialog" id="signUpModal">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-        <div class="modal-header">
-            <div class="w-100 text-center d-flex flex-column justify-content-center align-items-center">
-            <h3 class="modal-title modal-heading"><i class="fas fa-envelope mr-1" aria-hidden="true"></i>
-                Sign up for our newsletter</h3>
-                <p class="signup-modal-paragraph">Stay updated with the latest news!</p>
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <div class="w-100 text-center d-flex flex-column justify-content-center align-items-center">
+                <h3 class="modal-title modal-heading"><i class="fas fa-envelope mr-1" aria-hidden="true"></i>
+                    Sign up for our newsletter</h3>
+                    <p class="signup-modal-paragraph">Stay updated with the latest news!</p>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
             </div>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
+            <div class="modal-body">
+                <form class="form-inline w-100 my-2" id="signup-form">
+                <input type="email" class="form-control mr-2 pb-2" id="email-signup" placeholder="Email address" required>
+                <button type="submit" class="btn btn-red-secondary">Subscribe</button>
+                </form>
+            </div>
+            </div>
         </div>
-        <div class="modal-body">
-            <form class="form-inline w-100 my-2" id="signup-form">
-            <input type="email" class="form-control mr-2 pb-2" id="email" placeholder="Email address" required>
-            <button type="submit" class="btn btn-red-secondary">Subscribe</button>
-            </form>
-        </div>
-        </div>
-    </div>
     </div>
 
     <!-- Scripts -->

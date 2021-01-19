@@ -397,6 +397,22 @@ input[type=text]:focus:invalid {
 .music-player {
     border: none;
     width: 100%;
+    height: 24rem;
+}
+
+.music-buy-btn {
+    width: 8rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.music-buy-btn:hover {
+    transform: scale(1.08);
+}
+
+.music-buy-header {
+    font-size: 1.1rem;
+    letter-spacing: 1.4px;
+    line-height: 1.5;
 }
 
 .container-wrapper-video {
@@ -413,11 +429,13 @@ input[type=text]:focus:invalid {
 
 .media-sub-heading {
     font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .video-paragraph,
 .youtube-link-video {
     font-size: 1.1rem;
+    letter-spacing: 1.2px;
 }
 
 /* FOOTER */
@@ -520,6 +538,10 @@ input[type=text]:focus:invalid {
     .music-container {
         max-width: 991px;
     }
+
+    .music-buy-btn {
+        width: 6.5rem;
+    }
 }
 
 /*Desktop media queries*/
@@ -540,8 +562,12 @@ input[type=text]:focus:invalid {
 
     .video-paragraph,
     .youtube-link-video {
-    font-size: 1.3rem;
-}
+        font-size: 1.3rem;
+    }
+
+    .music-buy-btn {
+        width: 9rem;
+    }
 }
 
 /*Large screens media queries*/
