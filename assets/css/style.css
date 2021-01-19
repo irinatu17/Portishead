@@ -454,6 +454,12 @@ input[type=text]:focus:invalid {
 
 .footer-author-link,
 .footer-author-link:hover {
+    transition: all .3s ease-in-out;
+    color: #fff;
+}
+
+.footer-author-link:hover {
+    color: var(--color-primary);
     text-decoration: none;
 }
 

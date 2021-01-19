@@ -16,39 +16,39 @@
 <body>
     <!-- Navbar -->
     <header>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm header-fixed">
-        <a class="navbar-brand lead navbar-link mr-4" href="index.html">
-        <img src="assets/images/portishead_logo.png" alt="Portishead Logo" class="logo">
-        </a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span> </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto uppercase">
-            <li class="nav-item mr-2">
-            <a class="nav-link" href="index.html#about-section">About</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link mr-2" href="tours.html">Tours</a>
-            </li>
-            <li class="nav-item mr-2 dropdown">
-            <a class="nav-link dropdown-toggle" href="media.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Media
-        </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="media.html#gallery">Gallery</a>
-                <a class="dropdown-item" href="media.html#music">Music</a>
-                <a class="dropdown-item" href="media.html#video">Video</a>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm header-fixed">
+            <a class="navbar-brand lead navbar-link mr-4" href="index.html">
+            <img src="assets/images/portishead_logo.png" alt="Portishead Logo" class="logo">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto uppercase">
+                <li class="nav-item mr-2">
+                <a class="nav-link" href="index.html#about-section">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link mr-2" href="tours.html">Tours</a>
+                </li>
+                <li class="nav-item mr-2 dropdown">
+                <a class="nav-link dropdown-toggle" href="media.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Media
+            </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="media.html#gallery">Gallery</a>
+                    <a class="dropdown-item" href="media.html#music">Music</a>
+                    <a class="dropdown-item" href="media.html#video">Video</a>
+                </div>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link mr-2 d-sm-none d-block" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+                </li>
+            </ul>
+            <div class="d-none d-md-block">
+                <a href="/login" class="btn btn-red-primary " data-toggle="modal" data-target="#signUpModal">Sign Up</a>
             </div>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link mr-2 d-sm-none d-block" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
-            </li>
-        </ul>
-        <div class="d-none d-md-block">
-            <a href="/login" class="btn btn-red-primary " data-toggle="modal" data-target="#signUpModal">Sign Up</a>
-        </div>
-        </div>
-    </nav>
+            </div>
+        </nav>
     </header>
 
     <!-- Tours -->
@@ -170,18 +170,26 @@
                     <div class="col-12 text-center uppercase">
                         <div class="jumbotron mx-auto" id="jumbotron">
                             <div class="container">
-                                <p class="jumbotron-paragraph"> Do you want to see Portishead at your party?</p>
-                                <p class="mb-5 jumbotron-paragraph">Do you have an idea to organise Portishead's concert in your city?</p>
+                                <p class="jumbotron-paragraph">
+                                     Do you want to see Portishead at your party?
+                                </p>
+                                <p class="mb-5 jumbotron-paragraph">
+                                    Do you have an idea to organise Portishead's concert in your city?
+                                </p>
                                 <h3 class="tour-booking-heading mb-4">
                                     <i class="fas fa-calendar-check"></i> Book Portishead for your event now! </h3>
-                                <button class="btn btn-red-primary uppercase" data-toggle="modal" data-target="#PortisheadTourEnquire"> Enquire</button>
+                                <button class="btn btn-red-primary uppercase"
+                                        data-toggle="modal" data-target="#PortisheadTourEnquire">
+                                         Enquire
+                                </button>
                             </div>
                         </div>
                     </div>
 
 
                     <!-- Modal-enquire -->
-                    <div class="modal fade" tabindex="-1" role="dialog" id="PortisheadTourEnquire"          aria-hidden="true">
+                    <div class="modal fade" tabindex="-1" role="dialog"
+                         id="PortisheadTourEnquire" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -194,11 +202,12 @@
                                     <form>
                                         <div class="form-group">
                                             <label for="name">Name:</label>
-                                            <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your name">
+                                            <input type="text" class="form-control" id="name"
+                                                   name="name" placeholder="Enter your name" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="email">E-mail:</label>
-                                            <input type="email" class="form-control" id="email" name="email" required aria-describedby="emailHelp" placeholder="Enter your email">
+                                            <input type="email" class="form-control" id="email" name="email"  aria-describedby="emailHelp" placeholder="Enter your email" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="name">Your enquiry:</label>
@@ -219,45 +228,45 @@
     </div>
         
         
-    <!-- Footer -->
-    <footer class="container-fluid footer-container pt-4 pb-2">
+ <!-- FOOTER -->
+ <footer class="container-fluid footer-container pt-4 pb-2">
     <div class="row">
-        <div class="col-12 col-sm d-flex justify-content-center">
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://www.facebook.com/portishead/">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://twitter.com/portisheadinfo">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://www.instagram.com/portisheadmusic/">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
-                    <i class="fab fa-youtube" aria-hidden="true"></i>
-                    <span class="sr-only">YouTube</span>
-                </a>
-                </li>
-            </ul>
-        </div>
+      <div class="col-12 d-flex justify-content-center">
+          <ul class="list-inline social-links">
+              <li class="list-inline-item">
+                  <a target="_blank" href="https://www.facebook.com/portishead/">
+                  <i class="fab fa-facebook" aria-hidden="true"></i>
+                  <span class="sr-only">Facebook</span>
+              </a>
+              </li>
+              <li class="list-inline-item">
+                  <a target="_blank" href="https://twitter.com/portisheadinfo">
+                  <i class="fab fa-twitter" aria-hidden="true"></i>
+                  <span class="sr-only">Twitter</span>
+              </a>
+              </li>
+              <li class="list-inline-item">
+                  <a target="_blank" href="https://www.instagram.com/portisheadmusic/">
+                  <i class="fab fa-instagram" aria-hidden="true"></i>
+                  <span class="sr-only">Instagram</span>
+              </a>
+              </li>
+              <li class="list-inline-item">
+                  <a target="_blank" href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
+                  <i class="fab fa-youtube" aria-hidden="true"></i>
+                  <span class="sr-only">YouTube</span>
+              </a>
+              </li>
+          </ul>
+      </div>
     </div>
     <div class="disclaimer text-center">
-        <small>Portishead. For educational purposes only | © 2020 by
-            <a href="https://github.com/irinatu17" target="_blank" class="text-white footer-author-link">
-            Irina Tushina</a>
-        </small>
+      <small>For educational purposes only | © 2021 by
+          <a href="https://github.com/irinatu17" target="_blank" class="footer-author-link">
+            Irina&nbsp;Tushina</a>
+      </small>
     </div>
-    </footer>
+  </footer>
 
     <!-- SignUp modal -->
     <div class="modal  fade" tabindex="-1" role="dialog" id="signUpModal">
