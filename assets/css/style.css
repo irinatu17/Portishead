@@ -411,6 +411,14 @@ input[type=text]:focus:invalid {
     padding: 2rem 0;
 }
 
+.media-sub-heading {
+    font-size: 1.3rem;
+}
+
+.video-paragraph,
+.youtube-link-video {
+    font-size: 1.1rem;
+}
 
 /* FOOTER */
 .footer-container {
@@ -529,6 +537,11 @@ input[type=text]:focus:invalid {
     .tour-booking-heading {
         font-size: 2rem;
     }
+
+    .video-paragraph,
+    .youtube-link-video {
+    font-size: 1.3rem;
+}
 }
 
 /*Large screens media queries*/
@@ -539,5 +552,9 @@ input[type=text]:focus:invalid {
 
     .music-container {
         max-width: 70%;
+    }
+
+    .media-sub-heading {
+        font-size: 1.5rem;
     }
 }
