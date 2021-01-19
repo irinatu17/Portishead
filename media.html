@@ -13,52 +13,50 @@
 </head>
 
 <body>
-      <!-- Navbar -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm header-fixed">
-      <a class="navbar-brand lead navbar-link mr-4" href="index.html">
-        <img src="assets/images/portishead_logo.png" alt="Portishead Logo" class="logo">
-      </a>
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto uppercase">
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="index.html#about-section">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mr-2" href="tours.html">Tours</a>
-          </li>
-          <li class="nav-item mr-2 dropdown">
-            <a class="nav-link dropdown-toggle" href="media.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Media
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm header-fixed">
+        <a class="navbar-brand lead navbar-link mr-4" href="index.html">
+            <img src="assets/images/portishead_logo.png" alt="Portishead Logo" class="logo">
         </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="media.html#gallery">Gallery</a>
-              <a class="dropdown-item" href="media.html#music">Music</a>
-              <a class="dropdown-item" href="media.html#video">Video</a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto uppercase">
+            <li class="nav-item mr-2">
+                <a class="nav-link" href="index.html#about-section">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-2" href="tours.html">Tours</a>
+            </li>
+            <li class="nav-item mr-2 dropdown">
+                <a class="nav-link dropdown-toggle" href="media.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Media
+            </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="media.html#gallery">Gallery</a>
+                <a class="dropdown-item" href="media.html#music">Music</a>
+                <a class="dropdown-item" href="media.html#video">Video</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mr-2 d-sm-none d-block" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+            </li>
+            </ul>
+            <div class="d-none d-md-block">
+            <a href="/login" class="btn btn-red-primary " data-toggle="modal" data-target="#signUpModal">Sign Up</a>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mr-2 d-sm-none d-block" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
-          </li>
-        </ul>
-        <div class="d-none d-md-block">
-          <a href="/login" class="btn btn-red-primary " data-toggle="modal" data-target="#signUpModal">Sign Up</a>
         </div>
-      </div>
-    </nav>
-  </header>
+        </nav>
+    </header>
 
-    <!-- Gallery -->
+    <!-- GALLERY -->
     <section class="container-wrapper-gallery" id="gallery">
         <div class="opaque-overlay">
-            <div class="container-fluid gallery-container">
-                <div class="row">
-                    <div class="col-12 mb-4">
-                        <h2 class="uppercase text-center mt-5"><i class="fas fa-camera"></i> Gallery:</h2>
-                    </div>
-                </div>
+            <div class="container gallery-container">
+                <h1 class="uppercase text-center mb-5 mt-3">
+                    <i class="fas fa-camera"></i> Gallery
+                </h1>
                 <div class="row gallery-main">
                     <div class="col-md-6 col-lg-3 mt-4 mb-4 card-gallery">
                         <div class="card text-center ">
@@ -106,66 +104,61 @@
             </div>
         </div>
     </section>
-    <!-- Music -->
+
+    <!-- MUSIC -->
     <section class="container-wrapper-music" id="music">
-        <div class="container-fluid music-container">
-            <div class="row">
-                <div class="col-12 mb-4">
-                    <h2 class="uppercase text-center mt-4 mb-4"><i class="fas fa-headphones-alt"></i> Music:</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 text-center">
+        <div class="container music-container">
+            <h1 class="uppercase text-center mt-5 mb-5">
+                <i class="fas fa-headphones-alt"></i> Music
+            </h1>
+             <div class="row mx-0 d-flex justidy-content-center"> 
+                <div class="col-12 col-md-4 text-center">
                     <img src="assets/images/dummy-album.png" class="img-fluid mb-3" alt="Dummy album image">
                     <h5 class=" uppercase  mt-4 mb-4">Dummy, 1994</h5>
-                    <iframe class="music-player mb-4" src="https://open.spotify.com/embed/album/3539EbNgIdEDGBKkUf4wno"  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="music-player mb-4" src="https://open.spotify.com/embed/album/3539EbNgIdEDGBKkUf4wno"  height="380"  allow="encrypted-media"></iframe>
                 </div>
-                <div class="col-sm-4 text-center">
+                <div class="col-12 col-md-4 text-center">
                     <img src="assets/images/portishead-album.png" class="img-fluid mb-3" alt="Portishead album image">
                     <h5 class="uppercase  mt-4 mb-4">Portishead, 1997</h5>
-                    <iframe class="music-player mb-4" src="https://open.spotify.com/embed/album/3G36754KQVLyGuskraEAVA" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="music-player mb-4" src="https://open.spotify.com/embed/album/3G36754KQVLyGuskraEAVA" height="380"  allow="encrypted-media"></iframe>
                 </div>
-                <div class="col-sm-4 text-center">
+                <div class="col-12 col-md-4 text-center">
                     <img src="assets/images/third-album.png" class="img-fluid mb-3" alt="Third album image">
                     <h5 class=" uppercase  mt-4 mb-4">Third, 2008</h5>
-                    <iframe class="music-player mb-4" src="https://open.spotify.com/embed/album/18JyZd2XLdT2rmekw6EwoS" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
+                    <iframe class="music-player mb-4" src="https://open.spotify.com/embed/album/18JyZd2XLdT2rmekw6EwoS" height="380"  allow="encrypted-media"></iframe>
                 </div>
-            </div>
+            </div> 
         </div>
     </section>
-    <!-- Video -->
+
+    <!-- VIDEO -->
     <section class="container-wrapper-video" id="video">
         <div class="opaque-overlay">
-            <div class="container-fluid video-container">
-                <div class="row">
-                    <div class="col-12 mb-4">
-                        <h2 class="uppercase text-center mt-5"><i class="fab fa-youtube"></i> Video:</h2>
-                    </div>
-                </div>
-                <div class="row">
+            <div class="container video-container">
+                <h1 class="uppercase text-center mt-5 mb-5"><i class="fab fa-youtube"></i> Video</h1>
+                <div class="row mx-2">
                     <div class="col-sm-6 mt-4 mb-4">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Z7If6GODLFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/Z7If6GODLFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                         </div>
                     </div>
                     <div class="col-sm-6 mt-4 mb-4">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/TmDkzVvherk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/TmDkzVvherk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row mx-2">
                     <div class="col-sm-6  mt-4 mb-4">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Vg1jyL3cr60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item"  height="315" src="https://www.youtube.com/embed/Vg1jyL3cr60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                         </div>
                     </div>
                     <div class="col-sm-6  mt-4 mb-4">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ZNWm1sN-Tms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/ZNWm1sN-Tms" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -173,73 +166,74 @@
         </div>
     </section>
 
- <!-- FOOTER -->
- <footer class="container-fluid footer-container pt-4 pb-2">
-    <div class="row">
-      <div class="col-12 d-flex justify-content-center">
-          <ul class="list-inline social-links">
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.facebook.com/portishead/">
-                  <i class="fab fa-facebook" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-              </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://twitter.com/portisheadinfo">
-                  <i class="fab fa-twitter" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-              </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/portisheadmusic/">
-                  <i class="fab fa-instagram" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-              </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
-                  <i class="fab fa-youtube" aria-hidden="true"></i>
-                  <span class="sr-only">YouTube</span>
-              </a>
-              </li>
-          </ul>
-      </div>
-    </div>
-    <div class="disclaimer text-center">
-      <small>For educational purposes only | © 2021 by
-          <a href="https://github.com/irinatu17" target="_blank" class="footer-author-link">
-            Irina&nbsp;Tushina</a>
-      </small>
-    </div>
-  </footer>
-  <!-- SignUp modal -->
-  <div class="modal  fade" tabindex="-1" role="dialog" id="signUpModal">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <div class="w-100 text-center d-flex flex-column justify-content-center align-items-center">
-            <h3 class="modal-title modal-heading"><i class="fas fa-envelope mr-1" aria-hidden="true"></i>
-              Sign up for our newsletter</h3>
-              <p class="signup-modal-paragraph">Stay updated with the latest news!</p>
+    <!-- FOOTER -->
+    <footer class="container-fluid footer-container pt-4 pb-2">
+        <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.facebook.com/portishead/">
+                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://twitter.com/portisheadinfo">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.instagram.com/portisheadmusic/">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
+                    <i class="fab fa-youtube youtube-footer" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube</span>
+                </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <div class="disclaimer text-center">
+        <small>For educational purposes only | © 2021 by
+            <a href="https://github.com/irinatu17" target="_blank" class="footer-author-link">
+                Irina&nbsp;Tushina</a>
+        </small>
+        </div>
+    </footer>
+
+    <!-- SIGNUP MODAL -->
+    <div class="modal  fade" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <div class="w-100 text-center d-flex flex-column justify-content-center align-items-center">
+                <h3 class="modal-title modal-heading"><i class="fas fa-envelope mr-1" aria-hidden="true"></i>
+                Sign up for our newsletter</h3>
+                <p class="signup-modal-paragraph">Stay updated with the latest news!</p>
+                </div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
             </div>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+            <div class="modal-body">
+            <form class="form-inline w-100 my-2" id="signup-form">
+                <input type="email" class="form-control mr-2 pb-2" id="email" placeholder="Email address" required>
+                <button type="submit" class="btn btn-red-secondary">Subscribe</button>
+            </form>
+            </div>
         </div>
-        <div class="modal-body">
-          <form class="form-inline w-100 my-2" id="signup-form">
-            <input type="email" class="form-control mr-2 pb-2" id="email" placeholder="Email address" required>
-            <button type="submit" class="btn btn-red-secondary">Subscribe</button>
-          </form>
         </div>
-      </div>
     </div>
-  </div>
   
-  <!-- Scripts -->
+  <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

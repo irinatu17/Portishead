@@ -378,19 +378,24 @@ input[type=text]:focus:invalid {
 }
 
 .gallery-container {
-    padding:70px 40px;
+    height: 100%;
+    padding-top: 8rem;
 }
-
+  
 .card-img-top {
     object-fit: cover;
 }
 
 .container-wrapper-music {
-    background: linear-gradient(var(--color-primary), #000);  
+    background: linear-gradient(var(--color-primary-dark), #000); 
 }
 
 .music-container {
-    padding:70px 40px;
+    padding: 2rem 0;
+}
+
+.music-player {
+    border: none;
 }
 
 .container-wrapper-video {
@@ -398,11 +403,11 @@ input[type=text]:focus:invalid {
     -webkit-background-size: cover;                       
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;}
-
+    background-size: cover;
+}
 
 .video-container {
-   padding:40px 40px; 
+    padding: 2rem 0;
 }
 
 
@@ -442,7 +447,7 @@ input[type=text]:focus:invalid {
                      #d6249f 60%,#285AEB 90%);
 }
 
-.fa-youtube:hover {
+.youtube-footer:hover {
     background: #bb0000;
 }
 
