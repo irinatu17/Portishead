@@ -238,12 +238,12 @@ h1 {
     padding-top: 3rem;
 }
 
-.mobile-content {
-    background-color: rgba(250, 250, 241, 0.918);
+.modal-content {
+    background-color: rgb(250, 250, 241);
 }
 
 .modal-title,
-.mobile-content,
+.modal-content,
 .modal-body {
     color:#000;
 }
@@ -320,13 +320,16 @@ input[type=text]{
     border: 1px solid #a8a7a7c2;
     border-radius: 2px;
     box-shadow: none;
-    width: 55% !important;
     font-family: 'Bitter', sans-serif;
 }
 
-input#name.form-control,
-input#email.form-control {
+input[type=email].contact-modal-input,
+input[type=text].contact-modal-input{
     width: 100% !important;
+}
+
+input[type=email].signup-modal-input {
+    width: 55% !important;
 }
 
 input[type=email]:focus,
@@ -360,6 +363,7 @@ input[type=text]:focus:invalid {
     font-family: 'Indie Flower', cursive, sans-serif;
     font-weight: 700;
     font-size: 1.65rem;
+    letter-spacing: 1.4px;
 }
 
 .jumbotron{
@@ -499,7 +503,7 @@ input[type=text]:focus:invalid {
 
 /*Mobile media queries*/
 @media (min-width: 375px){
-    input[type=email]{
+    input[type=email].signup-modal-input {
         width: 65% !important;
     }
 }
@@ -531,7 +535,7 @@ input[type=text]:focus:invalid {
         width: 60%;
     }
 
-    input[type=email]{
+    input[type=email].signup-modal-input {
         width: 75% !important;
     }
 
