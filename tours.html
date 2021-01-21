@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Bitter|Indie+Flower|PT+Sans|Permanent+Marker" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
-    <title>Portishead - Tours</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Bitter|Indie+Flower|PT+Sans|Permanent+Marker" 
+            rel="stylesheet">
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+        <title>Portishead - Tours</title>
+    </head>
 
-<body>
-    <!-- Navbar -->
-    <header>
+    <body>
+        <header>
+        <!--NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm header-fixed">
-            <a class="navbar-brand lead navbar-link mr-4" href="index.html">
+            <a class="navbar-brand lead navbar-link mr-4" 
+                href="index.html">
             <img src="assets/images/portishead_logo.png" alt="Portishead Logo" class="logo">
             </a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span> </button>
+            <button class="navbar-toggler ml-auto" type="button"
+                    data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto uppercase">
                 <li class="nav-item mr-2">
@@ -31,9 +41,12 @@
                 <a class="nav-link mr-2" href="tours.html">Tours</a>
                 </li>
                 <li class="nav-item mr-2 dropdown">
-                <a class="nav-link dropdown-toggle" href="media.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Media
-            </a>
+                <a class="nav-link dropdown-toggle" href="media.html"
+                    id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Media
+                </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="media.html#media-gallery">Gallery</a>
                     <a class="dropdown-item" href="media.html#music">Music</a>
@@ -41,183 +54,212 @@
                 </div>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link mr-2 d-sm-none d-block" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+                <a class="nav-link mr-2 d-block d-md-none" href="/signup"
+                    data-toggle="modal" data-target="#signUpModal">
+                    Sign Up
+                </a>
                 </li>
             </ul>
             <div class="d-none d-md-block">
-                <a href="/login" class="btn btn-red-primary " data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+                <a href="/login" class="btn btn-red-primary"
+                data-toggle="modal" data-target="#signUpModal">
+                Sign Up
+                </a>
             </div>
             </div>
         </nav>
-    </header>
+        </header>
 
-    <!-- Tours -->
-    <div class="container-wrapper-tours">
-        <div class="opaque-overlay">
-            <div class="container-fluid tours-container">
-                <h1 class="uppercase text-center mb-5 mt-3">
-                    <i class="fas fa-globe-americas"></i> Tours
-                </h1>
-                <div class="tours-content text-center">
-                    <!--DUBLIN-->
-                    <div class="row mb-5 mb-lg-3 d-flex align-items-center">
-                        <div class="col-10 offset-1 offset-md-2 col-md-8 col-lg-2 offset-lg-2">
-                            <figure>
-                                <img src="assets/images/3arena-dublin.jpg" 
-                                     class="img-fluid rounded-sm"
-                                     alt="3Arena image, Dublin">
-                                <figcaption>
-                                    <p class="text-center uppercase pt-3">Dublin, Ireland</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-6 col-lg-2">
-                           <p class="lead uppercase font-weight-bold"><i class="far fa-calendar-alt mr-2"></i>
-                                2&nbsp;JUL
-                            </p>
-                        </div>
-                        <div class="col-6 col-lg-2 text-center">
-                            <p class="lead uppercase font-weight-bold">3 Arena</p>
-                            <p>N Wall Quay, North Dock</p>
-                        </div>
-                        <div class="col-12 col-lg-2 mb-4 mb-lg-0">
-                            <button class="btn btn-light disabled">SOLD OUT</button>
-                        </div>
-                    </div>
-
-                    <!--PARIS-->
-                     <div class="row mb-5 mb-lg-3 d-flex align-items-center"> 
-                        <div class="col-10 offset-1 offset-md-2 col-md-8 col-lg-2 offset-lg-2">
-                            <figure>
-                                <img src="assets/images/l'olympia.jpg"
-                                     class="img-fluid rounded-sm"
-                                     alt="L'Olympia theatre image, Paris">
-                                <figcaption>
-                                    <p class="text-center uppercase pt-3">Paris, France</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-6 col-lg-2">
+        <!-- TOURS -->
+        <div class="container-wrapper-tours">
+            <div class="opaque-overlay">
+                <div class="container-fluid tours-container">
+                    <h1 class="uppercase text-center mb-5 mt-3">
+                        <i class="fas fa-globe-americas"></i> Tours
+                    </h1>
+                    <div class="tours-content text-center">
+                        <!--DUBLIN-->
+                        <div class="row mb-5 mb-lg-3 d-flex align-items-center">
+                            <div class="col-10 offset-1 offset-md-2 col-md-8 col-lg-2 offset-lg-2">
+                                <figure>
+                                    <img src="assets/images/3arena-dublin.jpg" 
+                                        class="img-fluid rounded-sm"
+                                        alt="3Arena image, Dublin">
+                                    <figcaption>
+                                        <p class="text-center uppercase pt-3">Dublin, Ireland</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-6 col-lg-2">
                             <p class="lead uppercase font-weight-bold">
-                                <i class="far fa-calendar-alt mr-2"></i> 21&nbsp;JUL
-                            </p>
-                        </div>
-                        <div class="col-6 col-lg-2 text-center">
-                            <p class="lead uppercase font-weight-bold"> L'Olympia</p> 
-                            <p>28 Boulevard des Capucinesnt</p>
-                        </div>
-                        <div class="col-12 col-lg-2 mb-4 mb-lg-0">
-                            <a href="https://www.ticketmaster.com/portishead-tickets/artist/766991" target="_blank"
-                               class="btn btn-red-secondary uppercase">Tickets &nbsp;&raquo;</a>
-                        </div>
-                    </div>
-
-                    <!--LONDON-->
-                    <div class="row mb-5 mb-lg-3 d-flex align-items-center">
-                        <div class="col-10 offset-1 offset-md-2 col-md-8 col-lg-2 offset-lg-2">
-                            <figure>
-                                <img src="assets/images/scala-london.jpg"
-                                     class="img-fluid rounded-sm"
-                                     alt="The Scala theatre image, London">
-                                <figcaption>
-                                    <p class="text-center uppercase pt-3">London, UK</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-6 col-lg-2">
-                            <p class="lead uppercase font-weight-bold">
-                                <i class="far fa-calendar-alt mr-2"></i> 5&nbsp;AUG
-                            </p>
-                        </div>
-                        <div class="col-6 col-lg-2 text-center">
-                            <p class="lead uppercase font-weight-bold">The Scala</p>
-                             <p>275 Pentonville Rd</p>
-                        </div>
-                        <div class="col-12 col-lg-2 mb-4 mb-lg-0">
-                            <a href="https://www.ticketmaster.com/portishead-tickets/artist/766991" target="_blank" class="btn btn-red-secondary uppercase">Tickets&nbsp;&raquo;</a>
-                        </div>
-                    </div>
-
-                    <!--AMSTERDAM-->
-                    <div class="row mb-5 mb-lg-3 d-flex align-items-center">
-                        <div class="col-10 offset-1 offset-md-2 col-md-8 col-lg-2 offset-lg-2">
-                            <figure>
-                                <img src="assets/images/bimhuis-amsterdam.jpg"
-                                     class="img-fluid rounded-sm"
-                                      alt="Bimhuis image, Amsterdam">
-                                <figcaption>
-                                    <p class="text-center uppercase pt-3">Amsterdam, Netherlands</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-6 col-lg-2">
-                            <p class="lead uppercase font-weight-bold">
-                                <i class="far fa-calendar-alt mr-2"></i> 11&nbsp;AUG
-                            </p>
-                        </div>
-                        <div class="col-6 col-lg-2 text-center">
-                            <p class="lead uppercase font-weight-bold">Bimhuis</p>
-                            <p>Piet Heinkade 3</p>
-                        </div>
-                        <div class="col-12 col-lg-2 mb-4 mb-lg-0">
-                            <a href="https://www.ticketmaster.com/portishead-tickets/artist/766991" target="_blank" class="btn btn-red-secondary uppercase">Tickets&nbsp;&raquo;</a>
-                        </div>
-                    </div> 
-                </div>
-                <hr class="block-divider w-25">
-                <!-- Enquire -->
-                <div class="row mt-5 pb-3">
-                    <div class="col-12 text-center uppercase">
-                        <div class="jumbotron mx-auto" id="jumbotron">
-                            <div class="container">
-                                <p class="jumbotron-paragraph">
-                                     Do you want to see Portishead at your party?
+                                <i class="far fa-calendar-alt mr-2"></i>
+                                    2&nbsp;JUL
                                 </p>
-                                <p class="mb-5 jumbotron-paragraph">
-                                    Do you have an idea to organise Portishead's concert in your city?
-                                </p>
-                                <h3 class="tour-booking-heading mb-4">
-                                    <i class="fas fa-calendar-check"></i> Book Portishead for your event now! </h3>
-                                <button class="btn btn-red-primary uppercase"
-                                        data-toggle="modal" data-target="#PortisheadTourEnquire">
-                                         Enquire
-                                </button>
+                            </div>
+                            <div class="col-6 col-lg-2 text-center">
+                                <p class="lead uppercase font-weight-bold">3 Arena</p>
+                                <p>N Wall Quay, North Dock</p>
+                            </div>
+                            <div class="col-12 col-lg-2 mb-4 mb-lg-0">
+                                <button class="btn btn-light disabled">SOLD OUT</button>
                             </div>
                         </div>
+
+                        <!--PARIS-->
+                        <div class="row mb-5 mb-lg-3 d-flex align-items-center"> 
+                            <div class="col-10 offset-1 offset-md-2 col-md-8 col-lg-2 offset-lg-2">
+                                <figure>
+                                    <img src="assets/images/l'olympia.jpg"
+                                        class="img-fluid rounded-sm"
+                                        alt="L'Olympia theatre image, Paris">
+                                    <figcaption>
+                                        <p class="text-center uppercase pt-3">Paris, France</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-6 col-lg-2">
+                                <p class="lead uppercase font-weight-bold">
+                                    <i class="far fa-calendar-alt mr-2"></i> 21&nbsp;JUL
+                                </p>
+                            </div>
+                            <div class="col-6 col-lg-2 text-center">
+                                <p class="lead uppercase font-weight-bold"> L'Olympia</p> 
+                                <p>28 Boulevard des Capucinesnt</p>
+                            </div>
+                            <div class="col-12 col-lg-2 mb-4 mb-lg-0">
+                                <a href="https://www.ticketmaster.com/portishead-tickets/artist/766991"
+                                target="_blank"
+                                class="btn btn-red-secondary uppercase">
+                                Tickets &nbsp;&raquo;
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--LONDON-->
+                        <div class="row mb-5 mb-lg-3 d-flex align-items-center">
+                            <div class="col-10 offset-1 offset-md-2 col-md-8 col-lg-2 offset-lg-2">
+                                <figure>
+                                    <img src="assets/images/scala-london.jpg"
+                                        class="img-fluid rounded-sm"
+                                        alt="The Scala theatre image, London">
+                                    <figcaption>
+                                        <p class="text-center uppercase pt-3">London, UK</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-6 col-lg-2">
+                                <p class="lead uppercase font-weight-bold">
+                                    <i class="far fa-calendar-alt mr-2"></i> 5&nbsp;AUG
+                                </p>
+                            </div>
+                            <div class="col-6 col-lg-2 text-center">
+                                <p class="lead uppercase font-weight-bold">The Scala</p>
+                                <p>275 Pentonville Rd</p>
+                            </div>
+                            <div class="col-12 col-lg-2 mb-4 mb-lg-0">
+                                <a href="https://www.ticketmaster.com/portishead-tickets/artist/766991"
+                                target="_blank" class="btn btn-red-secondary uppercase">
+                                Tickets&nbsp;&raquo;
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--AMSTERDAM-->
+                        <div class="row mb-5 mb-lg-3 d-flex align-items-center">
+                            <div class="col-10 offset-1 offset-md-2 col-md-8 col-lg-2 offset-lg-2">
+                                <figure>
+                                    <img src="assets/images/bimhuis-amsterdam.jpg"
+                                        class="img-fluid rounded-sm"
+                                        alt="Bimhuis image, Amsterdam">
+                                    <figcaption>
+                                        <p class="text-center uppercase pt-3">Amsterdam, Netherlands</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-6 col-lg-2">
+                                <p class="lead uppercase font-weight-bold">
+                                    <i class="far fa-calendar-alt mr-2"></i> 11&nbsp;AUG
+                                </p>
+                            </div>
+                            <div class="col-6 col-lg-2 text-center">
+                                <p class="lead uppercase font-weight-bold">Bimhuis</p>
+                                <p>Piet Heinkade 3</p>
+                            </div>
+                            <div class="col-12 col-lg-2 mb-4 mb-lg-0">
+                                <a href="https://www.ticketmaster.com/portishead-tickets/artist/766991"
+                                target="_blank" class="btn btn-red-secondary uppercase">
+                                Tickets&nbsp;&raquo;
+                                </a>
+                            </div>
+                        </div> 
                     </div>
-
-
-                    <!-- Modal-enquire -->
-                    <div class="modal fade" tabindex="-1" role="dialog"
-                         id="PortisheadTourEnquire" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title modal-heading">Contact Portishead's manegment:</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
+                    <hr class="block-divider w-25">
+                    <!-- Enquire -->
+                    <div class="row mt-5 pb-3">
+                        <div class="col-12 text-center uppercase">
+                            <div class="jumbotron mx-auto" id="jumbotron">
+                                <div class="container">
+                                    <p class="jumbotron-paragraph">
+                                        Do you want to see Portishead at your party?
+                                    </p>
+                                    <p class="mb-5 jumbotron-paragraph">
+                                        Do you have an idea to organise Portishead's concert in your city?
+                                    </p>
+                                    <h3 class="tour-booking-heading mb-4">
+                                        <i class="fas fa-calendar-check"></i>
+                                        Book Portishead for your event now! 
+                                    </h3>
+                                    <button class="btn btn-red-primary uppercase"
+                                            data-toggle="modal"
+                                            data-target="#PortisheadTourEnquire">
+                                        Enquire
                                     </button>
                                 </div>
-                                <div class="modal-body">
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="name">Name:</label>
-                                            <input type="text" class="form-control contact-modal-input" id="name"
-                                                   name="name" placeholder="Enter your name" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="email">E-mail:</label>
-                                            <input type="email" class="form-control contact-modal-input" id="email" name="email" placeholder="Enter your email" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="name">Your enquiry:</label>
-                                            <!--The opening and closing tags for the <textarea> element must be on the same line, otherwise a newline character occupies it-->
+                            </div>
+                        </div>
+
+                        <!-- MODAL-ENQUIRE -->
+                        <div class="modal fade" tabindex="-1" role="dialog"
+                            id="PortisheadTourEnquire" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal-heading">
+                                            Contact Portishead's manegment:
+                                        </h5>
+                                        <button type="button" class="close"
+                                                data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form>
+                                            <div class="form-group">
+                                                <label for="name">Name:</label>
+                                                <input type="text" class="form-control contact-modal-input"
+                                                    id="name" name="name"
+                                                    placeholder="Enter your name" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="email">E-mail:</label>
+                                                <input type="email" class="form-control contact-modal-input"
+                                                    id="email" name="email"
+                                                    placeholder="Enter your email" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="name">Your enquiry:</label>
+                                                <!--The opening and closing tags for the <textarea> element
+                                                    must be on the same line, otherwise a newline character
+                                                    occupies it-->
                 <textarea class="form-control" id="enquiry" name="enquiry" placeholder="Enter your enquiry" rows="5" required></textarea>
-                                        </div>
-                                        <div class="form-group text-center">
-                                            <button type="submit" class="btn btn-red-primary text-center">Submit</button>
-                                        </div>
-                                    </form>
+                                            </div>
+                                            <div class="form-group text-center">
+                                                <button type="submit" class="btn btn-red-primary text-center">
+                                                    Submit
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -225,77 +267,97 @@
                 </div>
             </div>
         </div>
-    </div>
-        
-        
- <!-- FOOTER -->
- <footer class="container-fluid footer-container pt-4 pb-2">
-    <div class="row">
-      <div class="col-12 d-flex justify-content-center">
-          <ul class="list-inline social-links">
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.facebook.com/portishead/">
-                  <i class="fab fa-facebook" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-              </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://twitter.com/portisheadinfo">
-                  <i class="fab fa-twitter" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-              </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/portisheadmusic/">
-                  <i class="fab fa-instagram" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-              </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
-                  <i class="fab fa-youtube youtube-footer" aria-hidden="true"></i>
-                  <span class="sr-only">YouTube</span>
-              </a>
-              </li>
-          </ul>
-      </div>
-    </div>
-    <div class="disclaimer text-center">
-      <small>For educational purposes only | © 2021 by
-          <a href="https://github.com/irinatu17" target="_blank" class="footer-author-link">
-            Irina&nbsp;Tushina</a>
-      </small>
-    </div>
-  </footer>
-
-    <!-- SignUp modal -->
-    <div class="modal  fade" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-            <div class="modal-header">
-                <div class="w-100 text-center d-flex flex-column justify-content-center align-items-center">
-                <h3 class="modal-title modal-heading"><i class="fas fa-envelope mr-1" aria-hidden="true"></i>
-                    Sign up for our newsletter</h3>
-                    <p class="signup-modal-paragraph">Stay updated with the latest news!</p>
-                </div>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-            </div>
-            <div class="modal-body">
-                <form class="form-inline w-100 my-2" id="signup-form">
-                <input type="email" class="form-control signup-modal-input mr-2 pb-2" id="email-signup" placeholder="Email address" required>
-                <button type="submit" class="btn btn-red-secondary">Subscribe</button>
-                </form>
-            </div>
+            
+        <!-- FOOTER -->
+        <footer class="container-fluid footer-container pt-4 pb-2">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" 
+                        href="https://www.facebook.com/portishead/">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" 
+                        href="https://twitter.com/portisheadinfo">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" 
+                        href="https://www.instagram.com/portisheadmusic/">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" 
+                        href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
+                        <i class="fab fa-youtube youtube-footer" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </div>
+        <div class="disclaimer text-center">
+            <small>For educational purposes only | © 2021 by
+                <a href="https://github.com/irinatu17"
+                target="_blank" class="footer-author-link">
+                Irina&nbsp;Tushina</a>
+            </small>
+        </div>
+        </footer>
 
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+        <!-- SIGNUP MODAL -->
+        <div class="modal  fade" tabindex="-1" role="dialog" id="signUpModal">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <div class="w-100 text-center d-flex flex-column justify-content-center align-items-center">
+                    <h3 class="modal-title modal-heading">
+                    <i class="fas fa-envelope mr-1" aria-hidden="true"></i>
+                        Sign up for our newsletter</h3>
+                        <p class="signup-modal-paragraph">
+                        Stay updated with the latest news!
+                        </p>
+                    </div>
+                    <button type="button" class="close"
+                            data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-inline w-100 my-2" id="signup-form">
+                    <input type="email" class="form-control signup-modal-input mr-2 pb-2"
+                        id="email-signup" placeholder="Email address" required>
+                    <button type="submit" class="btn btn-red-secondary">
+                    Subscribe
+                    </button>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous">
+        </script>
+        <script src="assets/js/main.js"></script>
+    </body>
 
 </html>
