@@ -385,6 +385,17 @@ input[type=text]:focus:invalid {
     height: 100%;
     padding-top: 8rem;
 }
+
+.gallery-img {
+    object-fit: cover;
+    width: 100%;
+    height: 20rem;
+    transition: all .2s ease-in-out;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+}
   
 .card-img-top {
     object-fit: cover;
@@ -546,6 +557,10 @@ input[type=text]:focus:invalid {
     .music-buy-btn {
         width: 6.5rem;
     }
+
+    .gallery-img {
+        height: 15rem;
+    }
 }
 
 /*Desktop media queries*/
@@ -572,6 +587,10 @@ input[type=text]:focus:invalid {
     .music-buy-btn {
         width: 9rem;
     }
+
+    .gallery-img {
+        height: 10rem;
+    }
 }
 
 /*Large screens media queries*/
@@ -586,5 +605,9 @@ input[type=text]:focus:invalid {
 
     .media-sub-heading {
         font-size: 1.5rem;
+    }
+
+    .gallery-img {
+        height: 17rem;
     }
 }
