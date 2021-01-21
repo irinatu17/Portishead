@@ -4,50 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Bitter|Indie+Flower|PT+Sans|Permanent+Marker" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Indie+Flower|PT+Sans|Permanent+Marker"
+          rel="stylesheet">
+    <link rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+         crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
     <title>Portishead - Media</title>
 </head>
 
 <body>
-    <!-- NAVBAR -->
     <header>
+        <!--NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm header-fixed">
-        <a class="navbar-brand lead navbar-link mr-4" href="index.html">
+            <a class="navbar-brand lead navbar-link mr-4" 
+                href="index.html">
             <img src="assets/images/portishead_logo.png" alt="Portishead Logo" class="logo">
-        </a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span> </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto uppercase">
-            <li class="nav-item mr-2">
-                <a class="nav-link" href="index.html#about-section">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link mr-2" href="tours.html">Tours</a>
-            </li>
-            <li class="nav-item mr-2 dropdown">
-                <a class="nav-link dropdown-toggle" href="media.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Media
             </a>
+            <button class="navbar-toggler ml-auto" type="button"
+                    data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto uppercase">
+                <li class="nav-item mr-2">
+                <a class="nav-link" href="index.html#about-section">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link mr-2" href="tours.html">Tours</a>
+                </li>
+                <li class="nav-item mr-2 dropdown">
+                <a class="nav-link dropdown-toggle" href="media.html"
+                    id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Media
+                </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="media.html#media-gallery">Gallery</a>
-                <a class="dropdown-item" href="media.html#music">Music</a>
-                <a class="dropdown-item" href="media.html#video">Video</a>
+                    <a class="dropdown-item" href="media.html#media-gallery">Gallery</a>
+                    <a class="dropdown-item" href="media.html#music">Music</a>
+                    <a class="dropdown-item" href="media.html#video">Video</a>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link mr-2 d-sm-none d-block" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
-            </li>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link mr-2 d-block d-md-none" href="/signup"
+                    data-toggle="modal" data-target="#signUpModal">
+                    Sign Up
+                </a>
+                </li>
             </ul>
             <div class="d-none d-md-block">
-            <a href="/login" class="btn btn-red-primary " data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+                <a href="/login" class="btn btn-red-primary"
+                data-toggle="modal" data-target="#signUpModal">
+                Sign Up
+                </a>
             </div>
-        </div>
+            </div>
         </nav>
     </header>
 
@@ -60,78 +81,112 @@
                 </h1>
                 <div class="row pb-5">
                     <div class="col-12 col-md-4 col-lg-2 offset-lg-1 mt-2">
-                        <a href="assets/images/band-image1.jpg" data-fancybox="gallery" data-caption="Beth Gibbon">
-                            <img src="assets/images/band-image1.jpg" alt="Beth Gibbon" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image1.jpg"
+                           data-fancybox="gallery" data-caption="Beth Gibbon">
+                            <img src="assets/images/band-image1.jpg"
+                                 alt="Beth Gibbon" class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image2.jpg" data-fancybox="gallery" data-caption="Portishead">
-                            <img src="assets/images/band-image2.jpg" alt="Portishead band" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image2.jpg"
+                            data-fancybox="gallery" data-caption="Portishead">
+                            <img src="assets/images/band-image2.jpg"
+                                 alt="Portishead band" class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image3.jpg" data-fancybox="gallery" data-caption="Beth Gibbon and Geoff Barrow">
-                            <img src="assets/images/band-image3.jpg" alt="Beth Gibbon and Geoff Barrow" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image3.jpg"
+                           data-fancybox="gallery" data-caption="Beth Gibbon and Geoff Barrow">
+                            <img src="assets/images/band-image3.jpg"
+                                 alt="Beth Gibbon and Geoff Barrow"
+                                class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image4.jpg" data-fancybox="gallery" data-caption="Portishead">
-                            <img src="assets/images/band-image4.jpg" alt="Portishead band" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image4.jpg"
+                           data-fancybox="gallery" data-caption="Portishead">
+                            <img src="assets/images/band-image4.jpg" 
+                                 alt="Portishead band" class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image5.jpg" data-fancybox="gallery" data-caption="Portishead">
-                            <img src="assets/images/band-image5.jpg" alt="Portishead band" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image5.jpg" 
+                           data-fancybox="gallery" data-caption="Portishead">
+                            <img src="assets/images/band-image5.jpg"
+                                 alt="Portishead band" class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 offset-lg-1 mt-2">
-                        <a href="assets/images/band-image6.jpg" data-fancybox="gallery" data-caption="Beth Gibbon and Geoff Barrow">
-                            <img src="assets/images/band-image6.jpg" alt="Beth Gibbon and Geoff Barrow" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image6.jpg"
+                           data-fancybox="gallery" data-caption="Beth Gibbon and Geoff Barrow">
+                            <img src="assets/images/band-image6.jpg"
+                                 alt="Beth Gibbon and Geoff Barrow"
+                                 class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image7.jpg" data-fancybox="gallery" data-caption="Portishead">
-                            <img src="assets/images/band-image7.jpg" alt="Portishead band" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image7.jpg"
+                           data-fancybox="gallery" data-caption="Portishead">
+                            <img src="assets/images/band-image7.jpg"
+                                 alt="Portishead band" class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image8.jpg" data-fancybox="gallery" data-caption="Portishead">
-                            <img src="assets/images/band-image8.jpg" alt="Portishead band" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image8.jpg"
+                           data-fancybox="gallery" data-caption="Portishead">
+                            <img src="assets/images/band-image8.jpg"
+                                alt="Portishead band" class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image9.jpg" data-fancybox="gallery" data-caption="Beth Gibbon">
-                            <img src="assets/images/band-image9.jpg" alt="Beth Gibbon" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image9.jpg"
+                           data-fancybox="gallery" data-caption="Beth Gibbon">
+                            <img src="assets/images/band-image9.jpg"
+                                 alt="Beth Gibbon" class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image10.jpg" data-fancybox="gallery" data-caption="Portishead">
-                            <img src="assets/images/band-image10.jpg" alt="Portishead band" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image10.jpg"
+                           data-fancybox="gallery" data-caption="Portishead">
+                            <img src="assets/images/band-image10.jpg"
+                                 alt="Portishead band" class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 offset-lg-1 mt-2">
-                        <a href="assets/images/band-image11.jpg" data-fancybox="gallery" data-caption="Portishead concert">
-                            <img src="assets/images/band-image11.jpg" alt="Portishead band concert" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image11.jpg"
+                           data-fancybox="gallery" data-caption="Portishead concert">
+                            <img src="assets/images/band-image11.jpg" 
+                                 alt="Portishead band concert"
+                                class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image12.jpg" data-fancybox="gallery" data-caption="Portishead">
-                            <img src="assets/images/band-image12.jpg" alt="Portishead band" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image12.jpg"
+                           data-fancybox="gallery" data-caption="Portishead">
+                            <img src="assets/images/band-image12.jpg"
+                                 alt="Portishead band"
+                                class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image13.jpg" data-fancybox="gallery" data-caption="Portishead">
-                            <img src="assets/images/band-image13.jpg" alt="Portishead band" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image13.jpg"
+                          data-fancybox="gallery" data-caption="Portishead">
+                            <img src="assets/images/band-image13.jpg"
+                                 alt="Portishead band" class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image14.jpg" data-fancybox="gallery" data-caption="Geoff Barrow">
-                            <img src="assets/images/band-image14.jpg" alt="Geoff Barrow" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image14.jpg"
+                           data-fancybox="gallery" data-caption="Geoff Barrow">
+                            <img src="assets/images/band-image14.jpg"
+                                 alt="Geoff Barrow" class="gallery-img img-fluid">
                         </a>
                     </div>
                     <div class="col-12 col-md-4 col-lg-2 mt-2">
-                        <a href="assets/images/band-image15.jpg" data-fancybox="gallery" data-caption="Adrian Utley">
-                            <img src="assets/images/band-image15.jpg" alt="Adrian Utley" class="gallery-img img-fluid">
+                        <a href="assets/images/band-image15.jpg"
+                           data-fancybox="gallery" data-caption="Adrian Utley">
+                            <img src="assets/images/band-image15.jpg"
+                                 alt="Adrian Utley" class="gallery-img img-fluid">
                         </a>
                     </div>
                 </div>
@@ -147,56 +202,91 @@
             </h1>
              <div class="row mx-0 d-flex justidy-content-center"> 
                 <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/dummy-album.png" class="img-fluid mb-3" alt="Dummy album image">
-                    <h2 class=" uppercase media-sub-heading mt-4 mb-4">Dummy, 1994</h2>
+                    <img src="assets/images/dummy-album.png"
+                         class="img-fluid mb-3" alt="Dummy album image">
+                    <h2 class=" uppercase media-sub-heading mt-4 mb-4">
+                        Dummy, 1994
+                    </h2>
                     <div class="d-flex justify-content-around mb-3">
-                        <a href="https://music.apple.com/us/album/dummy/1440653096" 
+                        <a href="https://music.apple.com/us/album/dummy/1440653096"
                             target="_blank" rel="noopener">
-                            <img src="assets/images/app-store.png"  class="img-fluid music-buy-btn" 
-                            alt="App Store Button">
+                            <img src="assets/images/app-store.png" 
+                                class="img-fluid music-buy-btn" 
+                                alt="App Store Button">
                         </a>
-                        <a href="https://play.google.com/store/books/details/RJ_Wheaton_Portishead_s_Dummy?id=NciKgE5rn3gC" target="_blank" rel="noopener">
-                            <img src="assets/images/google-play.png"  class="img-fluid music-buy-btn"
-                                 alt="Google PLay Button">
+                        <a href="https://play.google.com/store/books/details/RJ_Wheaton_Portishead_s_Dummy?id=NciKgE5rn3gC"
+                            target="_blank" rel="noopener">
+                            <img src="assets/images/google-play.png"
+                                class="img-fluid music-buy-btn"
+                                alt="Google PLay Button">
                         </a>
                     </div>
-                    <h4 class="uppercase music-buy-header mt-5 mb-3">Listen on spotify</h4>
-                    <iframe class="music-player mb-4" src="https://open.spotify.com/embed/album/3539EbNgIdEDGBKkUf4wno" allow="encrypted-media"></iframe>
+                    <h4 class="uppercase music-buy-header mt-5 mb-3">
+                        Listen on spotify
+                    </h4>
+                    <iframe class="music-player mb-4" 
+                            src="https://open.spotify.com/embed/album/3539EbNgIdEDGBKkUf4wno"
+                             allow="encrypted-media">
+                    </iframe>
                 </div>
 
                 <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/portishead-album.png" class="img-fluid mb-3" alt="Portishead album image">
-                    <h2 class="uppercase media-sub-heading mt-4 mb-4">Portishead, 1997</h2>
+                    <img src="assets/images/portishead-album.png"
+                         class="img-fluid mb-3" 
+                         alt="Portishead album image">
+                    <h2 class="uppercase media-sub-heading mt-4 mb-4">
+                        Portishead, 1997
+                    </h2>
                     <div class="d-flex justify-content-around mb-3">
-                        <a href="https://music.apple.com/us/album/portishead/1440933279" 
+                        <a href="https://music.apple.com/us/album/portishead/1440933279"
+                            target="_blank" rel="noopener">
+                            <img src="assets/images/app-store.png"  
+                                 class="img-fluid music-buy-btn"
+                                 alt="App Store Button">
+                        </a>
+                        <a href="https://play.google.com/store/books/details/RJ_Wheaton_Portishead_s_Dummy?id=NciKgE5rn3gC"
+                            target="_blank" rel="noopener">
+                            <img src="assets/images/google-play.png"  
+                                 class="img-fluid music-buy-btn"
+                                 alt="Google PLay Button">
+                        </a>
+                    </div>
+                    <h4 class="uppercase music-buy-header mt-5 mb-3">
+                        Listen on spotify
+                    </h4>
+                    <iframe class="music-player mb-4"
+                            src="https://open.spotify.com/embed/album/3G36754KQVLyGuskraEAVA"
+                            allow="encrypted-media">
+                    </iframe>
+                </div>
+
+                <div class="col-12 col-md-4 text-center">
+                    <img src="assets/images/third-album.png"
+                         class="img-fluid mb-3" alt="Third album image">
+                    <h2 class=" uppercase media-sub-heading mt-4 mb-4">
+                        Third, 2008
+                    </h2>
+                    <div class="d-flex justify-content-around mb-3">
+                        <a href="https://music.apple.com/us/album/third/1440633834"
                            target="_blank" rel="noopener">
-                            <img src="assets/images/app-store.png"  class="img-fluid music-buy-btn"
+                            <img src="assets/images/app-store.png"  
+                                 class="img-fluid music-buy-btn"
                                  alt="App Store Button">
                         </a>
-                        <a href="https://play.google.com/store/books/details/RJ_Wheaton_Portishead_s_Dummy?id=NciKgE5rn3gC" target="_blank" rel="noopener">
-                            <img src="assets/images/google-play.png"  class="img-fluid music-buy-btn"
+                        <a href="https://play.google.com/store/books/details/RJ_Wheaton_Portishead_s_Dummy?id=NciKgE5rn3gC"
+                            target="_blank" rel="noopener">
+                            <img src="assets/images/google-play.png"
+                                 class="img-fluid music-buy-btn"
                                  alt="Google PLay Button">
                         </a>
                     </div>
-                    <h4 class="uppercase music-buy-header mt-5 mb-3">Listen on spotify</h4>
-                    <iframe class="music-player mb-4" src="https://open.spotify.com/embed/album/3G36754KQVLyGuskraEAVA"  allow="encrypted-media"></iframe>
-                </div>
-
-                <div class="col-12 col-md-4 text-center">
-                    <img src="assets/images/third-album.png" class="img-fluid mb-3" alt="Third album image">
-                    <h2 class=" uppercase media-sub-heading mt-4 mb-4">Third, 2008</h2>
-                    <div class="d-flex justify-content-around mb-3">
-                        <a href="https://music.apple.com/us/album/third/1440633834" target="_blank" rel="noopener">
-                            <img src="assets/images/app-store.png"  class="img-fluid music-buy-btn"
-                                 alt="App Store Button">
-                        </a>
-                        <a href="https://play.google.com/store/books/details/RJ_Wheaton_Portishead_s_Dummy?id=NciKgE5rn3gC" target="_blank" rel="noopener">
-                            <img src="assets/images/google-play.png"  class="img-fluid music-buy-btn"
-                                 alt="Google PLay Button">
-                        </a>
-                    </div>
-                    <h4 class="uppercase music-buy-header mt-5 mb-3">Listen on spotify</h4>
-                    <iframe class="music-player mb-4" src="https://open.spotify.com/embed/album/18JyZd2XLdT2rmekw6EwoS"  allow="encrypted-media"></iframe>
+                    <h4 class="uppercase music-buy-header mt-5 mb-3">
+                        Listen on spotify
+                    </h4>
+                    <iframe class="music-player mb-4"
+                            src="https://open.spotify.com/embed/album/18JyZd2XLdT2rmekw6EwoS"
+                            allow="encrypted-media">
+                    </iframe>
                 </div>
             </div>
         </div>
@@ -206,17 +296,27 @@
     <section class="container-wrapper-video" id="video">
         <div class="opaque-overlay">
             <div class="container video-container">
-                <h1 class="uppercase text-center mt-5 mb-5"><i class="fab fa-youtube"></i> Video</h1>
+                <h1 class="uppercase text-center mt-5 mb-5">
+                    <i class="fab fa-youtube"></i> Video
+                </h1>
                 <div class="row mx-2">
                     <div class="col-sm-6 mt-4 mb-4">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/Z7If6GODLFc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item"
+                                     height="315" src="https://www.youtube.com/embed/Z7If6GODLFc"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                                    allowfullscreen>
+                            </iframe>
                         </div>
                         <h2 class="text-center uppercase media-sub-heading m-3">Numb</h2>
                     </div>
                     <div class="col-sm-6 mt-4 mb-4">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/TmDkzVvherk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item"
+                                     height="315" src="https://www.youtube.com/embed/TmDkzVvherk"
+                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                      allowfullscreen>
+                            </iframe>
                         </div>
                         <h2 class="text-center uppercase media-sub-heading m-3">Only you</h2>
                     </div>
@@ -224,13 +324,21 @@
                 <div class="row mx-2 mt-lg-3">
                     <div class="col-sm-6  mt-4 mb-4">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item"  height="315" src="https://www.youtube.com/embed/Vg1jyL3cr60" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item"
+                                    height="315" src="https://www.youtube.com/embed/Vg1jyL3cr60"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                            </iframe>
                         </div>
                         <h2 class="text-center uppercase media-sub-heading m-3">Roads</h2>
                     </div>
                     <div class="col-sm-6  mt-4 mb-4">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" height="315" src="https://www.youtube.com/embed/ZNWm1sN-Tms" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item"
+                                    height="315" src="https://www.youtube.com/embed/ZNWm1sN-Tms"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                     allowfullscreen>
+                            </iframe>
                         </div>
                         <h2 class="text-center uppercase media-sub-heading m-3">Over</h2>
                     </div>
@@ -238,7 +346,8 @@
                 <div class="d-flex justify-content-center mx-2">
                     <p class="text-center video-paragraph">Watch more videos on our 
                         <a href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg"
-                         target="_blank" class="btn btn-red-secondary youtube-link-video">YouTube</a>channel
+                          target="_blank" class="btn btn-red-secondary youtube-link-video">
+                          YouTube</a> channel
                     </p>
                 </div>
             </div>
@@ -248,61 +357,73 @@
     <!-- FOOTER -->
     <footer class="container-fluid footer-container pt-4 pb-2">
         <div class="row">
-        <div class="col-12 d-flex justify-content-center">
-            <ul class="list-inline social-links">
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://www.facebook.com/portishead/">
-                    <i class="fab fa-facebook" aria-hidden="true"></i>
-                    <span class="sr-only">Facebook</span>
-                </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://twitter.com/portisheadinfo">
-                    <i class="fab fa-twitter" aria-hidden="true"></i>
-                    <span class="sr-only">Twitter</span>
-                </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://www.instagram.com/portisheadmusic/">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
-                    <span class="sr-only">Instagram</span>
-                </a>
-                </li>
-                <li class="list-inline-item">
-                    <a target="_blank" href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
-                    <i class="fab fa-youtube youtube-footer" aria-hidden="true"></i>
-                    <span class="sr-only">YouTube</span>
-                </a>
-                </li>
-            </ul>
-        </div>
+            <div class="col-12 d-flex justify-content-center">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" 
+                        href="https://www.facebook.com/portishead/">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" 
+                        href="https://twitter.com/portisheadinfo">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" 
+                        href="https://www.instagram.com/portisheadmusic/">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" 
+                        href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
+                        <i class="fab fa-youtube youtube-footer" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="disclaimer text-center">
-        <small>For educational purposes only | © 2021 by
-            <a href="https://github.com/irinatu17" target="_blank" class="footer-author-link">
+            <small>For educational purposes only | © 2021 by
+                <a href="https://github.com/irinatu17"
+                target="_blank" class="footer-author-link">
                 Irina&nbsp;Tushina</a>
-        </small>
+            </small>
         </div>
     </footer>
 
-    <!-- SignUp modal -->
+    <!-- SIGNUP MODAL -->
     <div class="modal  fade" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
             <div class="modal-header">
                 <div class="w-100 text-center d-flex flex-column justify-content-center align-items-center">
-                <h3 class="modal-title modal-heading"><i class="fas fa-envelope mr-1" aria-hidden="true"></i>
+                <h3 class="modal-title modal-heading">
+                <i class="fas fa-envelope mr-1" aria-hidden="true"></i>
                     Sign up for our newsletter</h3>
-                    <p class="signup-modal-paragraph">Stay updated with the latest news!</p>
+                    <p class="signup-modal-paragraph">
+                    Stay updated with the latest news!
+                    </p>
                 </div>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close"
+                        data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
             </div>
             <div class="modal-body">
                 <form class="form-inline w-100 my-2" id="signup-form">
-                <input type="email" class="form-control signup-modal-input mr-2 pb-2" id="email-signup" placeholder="Email address" required>
-                <button type="submit" class="btn btn-red-secondary">Subscribe</button>
+                <input type="email" class="form-control signup-modal-input mr-2 pb-2"
+                    id="email-signup" placeholder="Email address" required>
+                <button type="submit" class="btn btn-red-secondary">
+                Subscribe
+                </button>
                 </form>
             </div>
             </div>
@@ -310,11 +431,21 @@
     </div>
   
   <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
