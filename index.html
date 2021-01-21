@@ -1,267 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Bitter|Indie+Flower|PT+Sans|Permanent+Marker" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Indie+Flower|PT+Sans|Permanent+Marker" 
+          rel="stylesheet">
+    <link rel="stylesheet" 
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
 
-  <title>Portishead - Home</title>
-</head>
+    <title>Portishead - Home</title>
+  </head>
 
-<body>
-  <header>
-      <!--NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm header-fixed">
-      <a class="navbar-brand lead navbar-link mr-4" href="index.html">
-        <img src="assets/images/portishead_logo.png" alt="Portishead Logo" class="logo">
-      </a>
-      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto uppercase">
-          <li class="nav-item mr-2">
-            <a class="nav-link" href="index.html#about-section">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mr-2" href="tours.html">Tours</a>
-          </li>
-          <li class="nav-item mr-2 dropdown">
-            <a class="nav-link dropdown-toggle" href="media.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Media
+  <body>
+    <header>
+        <!--NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-bg navbar-expand-sm header-fixed">
+        <a class="navbar-brand lead navbar-link mr-4" 
+            href="index.html">
+          <img src="assets/images/portishead_logo.png" alt="Portishead Logo" class="logo">
         </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="media.html#media-gallery">Gallery</a>
-              <a class="dropdown-item" href="media.html#music">Music</a>
-              <a class="dropdown-item" href="media.html#video">Video</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mr-2 d-block d-md-none" href="/signup" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
-          </li>
-        </ul>
-        <div class="d-none d-md-block">
-          <a href="/login" class="btn btn-red-primary " data-toggle="modal" data-target="#signUpModal">Sign Up</a>
+        <button class="navbar-toggler ml-auto" type="button"
+                data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto uppercase">
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="index.html#about-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-2" href="tours.html">Tours</a>
+            </li>
+            <li class="nav-item mr-2 dropdown">
+              <a class="nav-link dropdown-toggle" href="media.html"
+                id="navbarDropdownMenuLink" role="button"
+                  data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                Media
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="media.html#media-gallery">Gallery</a>
+                <a class="dropdown-item" href="media.html#music">Music</a>
+                <a class="dropdown-item" href="media.html#video">Video</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mr-2 d-block d-md-none" href="/signup"
+                data-toggle="modal" data-target="#signUpModal">
+                Sign Up
+              </a>
+            </li>
+          </ul>
+          <div class="d-none d-md-block">
+            <a href="/login" class="btn btn-red-primary"
+              data-toggle="modal" data-target="#signUpModal">
+              Sign Up
+            </a>
+          </div>
         </div>
+      </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section class="container-fluid" id="home-container">
+      <div class="home-heading-container d-flex justify-content-center align-items-center">
+          <h1 class="home-heading">Portishead</h1>
       </div>
-    </nav>
-  </header>
-
-  <!-- HOME SECTION -->
-  <section class="container-fluid" id="home-container">
-    <div class="home-heading-container d-flex justify-content-center align-items-center">
-        <h1 class="home-heading">Portishead</h1>
-    </div>
-    <!--QUITE-->
-    <div class="quote-text">
-      <p>"Oh, can't anybody see <br>
-        We've got a war to fight<br>
-        Never found our way<br>
-        Regardless of what they say<br>
-        How can it feel, this wrong<br>
-        From this moment<br>
-        How can it feel, this wrong..."</p>
-        <p class="text-muted">(c) Roads, Portishead </p>
-    </div>
-    <!--ARROW-BUTTON-->
-    <a href="#about-section"><span></span></a>
-  </section>
+      <!--QUITE-->
+      <div class="quote-text">
+        <p>"Oh, can't anybody see <br>
+          We've got a war to fight<br>
+          Never found our way<br>
+          Regardless of what they say<br>
+          How can it feel, this wrong<br>
+          From this moment<br>
+          How can it feel, this wrong..."</p>
+          <p class="text-muted">(c) Roads, Portishead </p>
+      </div>
+      <!--ARROW-BUTTON-->
+      <a href="#about-section"><span></span></a>
+    </section>
 
 
-  <!-- ABOUT SECTION -->
-  <section class="container-wrapper-about" id="about-section">
-    <div class="container-fluid h-100 p-4 pb-5" >
-      <!-- ABOUT PARAGRAPH WITH BUTTON -->
-      <div class="row mb-4">
-        <div class="col-12 col-lg-8 offset-lg-2 text-center">
-          <h1 class="uppercase mb-5 mt-4"> About us</h1>
-          <p class="lead">Portishead is an English band formed in 1991 in Bristol. They are often considered as one of the pioneers of trip hop music. The band is named after the nearby town of the same name, eight miles west of Bristol, along the coast. Portishead
-            consists of Geoff Barrow, Beth Gibbons and Adrian Utley, while sometimes citing a fourth member, Dave McDonald, an engineer of their first records.</p>
-          <p class="lead mb-5">Their debut album, Dummy, was met with critical acclaim in 1994. Two other studio albums have been issued: Portishead in 1997 and Third in 2008. </p>
+    <!-- ABOUT SECTION -->
+    <section class="container-wrapper-about" id="about-section">
+      <div class="container-fluid h-100 p-4 pb-5" >
+        <!-- ABOUT PARAGRAPH WITH BUTTON -->
+        <div class="row mb-4">
+          <div class="col-12 col-lg-8 offset-lg-2 text-center">
+            <h1 class="uppercase mb-5 mt-4"> About us</h1>
+            <p class="lead">Portishead is an English band formed in 1991 in Bristol.
+              They are often considered as one of the pioneers of trip hop music.
+              The band is named after the nearby town of the same name,
+              eight miles west of Bristol, along the coast.
+              Portishead consists of Geoff Barrow, Beth Gibbons and Adrian Utley,
+              while sometimes citing a fourth member, Dave McDonald,
+              an engineer of their first records.
+            </p>
+            <p class="lead mb-5">
+              Their debut album, Dummy, was met with critical acclaim in 1994.
+              Two other studio albums have been issued:
+                Portishead in 1997 and Third in 2008. 
+            </p>
 
-          <!-- READ MORE BUTTON TO TRIGGER THE MODAL-->
-          <button type="button" class="btn btn-red-primary btn-lg" data-toggle="modal" data-target="#PortisheadAboutMore">
-            Read more
-          </button>
+            <!-- READ MORE BUTTON TO TRIGGER THE MODAL-->
+            <button type="button" class="btn btn-red-primary btn-lg"
+                    data-toggle="modal" data-target="#PortisheadAboutMore">
+              Read more
+            </button>
 
-          <!-- ABOUT MODAL -->
-          <div class="modal fade" id="PortisheadAboutMore" tabindex="-1" role="dialog" aria-labelledby="PortisheadAboutMore" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header text-center">
-                  <h4 class="modal-title uppercase font-weight-bold" id="ModalAbout"><i class="fas fa-history"></i> About</h4>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <h5 class="font-weight-bold pt-3 pb-2">Dummy (1994)</h5>
-                  <p>Portishead's first album Dummy was released in 1994.The credits indicate that at this juncture, Portishead was a duo of Geoff Barrow and Beth Gibbons. Adrian Utley, who co-produced the album with them, became an official band member
-                    shortly after its release. Despite the band's aversion to press coverage, the album was successful in both Europe and the United States (where it sold more than 150,000 copies even before the band toured there). Dummy was positively
-                    described by the Melody Maker as "musique noire for a movie not yet made". Rolling Stone praised its music as "Gothic hip-hop". Dummy spawned three singles: "Numb", "Sour Times" and "Glory Box", and won the Mercury Music Prize in
-                    1995. The success of the album saw the band nominated for Best British Newcomer at the 1995 Brit Awards.The album is often considered one of the greatest trip hop albums to date and is a milestone in the definition of the genre.</p>
+            <!-- ABOUT MODAL -->
+            <div class="modal fade" id="PortisheadAboutMore"
+                tabindex="-1" role="dialog" 
+                aria-labelledby="PortisheadAboutMore" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header text-center">
+                    <h4 class="modal-title uppercase font-weight-bold"
+                        id="ModalAbout"><i class="fas fa-history"></i>
+                        About
+                    </h4>
+                    <button type="button" class="close"
+                          data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5 class="font-weight-bold pt-3 pb-2">Dummy (1994)</h5>
+                    <p>
+                      Portishead's first album Dummy was released in 1994.
+                      The credits indicate that at this juncture, 
+                      Portishead was a duo of Geoff Barrow and Beth Gibbons.
+                      Adrian Utley, who co-produced the album with them,
+                      became an official band member shortly after its release.
+                      Despite the band's aversion to press coverage,
+                      the album was successful in both Europe and the United States
+                      (where it sold more than 150,000 copies even before the band toured there).
+                      Dummy was positively described by the Melody Maker as "musique noire for
+                      a movie not yet made". Rolling Stone praised its music as "Gothic hip-hop".
+                      Dummy spawned three singles: "Numb", "Sour Times" and "Glory Box",
+                      and won the Mercury Music Prize in 1995.
+                      The success of the album saw the band nominated for Best British Newcomer
+                      at the 1995 Brit Awards.The album is often considered one of the greatest
+                      trip hop albums to date and is a milestone in the definition of the genre.
+                    </p>
 
-                  <h5 class="font-weight-bold pt-3 pb-2">Portishead (1997)</h5>
-                  <p>After their initial success, Portishead withdrew from the spotlight for three years until their second album, Portishead, was released in 1997. The album's sound differed from Dummy, characterised as "grainy and harsher". Three singles, "All Mine", "Over"
-                    and "Only You" were released, the first one achieving a Top 10 placing in the UK. In 1997, the band performed a one-off show with strings at the Roseland Ballroom in New York City. A live album primarily featuring these new orchestral
-                    arrangements of the group's songs was released in 1998. There was also a long-form VHS video of the performance, and a DVD followed in 2002, with substantial extra material including many early music videos.</p>
+                    <h5 class="font-weight-bold pt-3 pb-2">Portishead (1997)</h5>
+                    <p>
+                      After their initial success, Portishead withdrew from the
+                      spotlight for three years until their second album, Portishead,
+                      was released in 1997. The album's sound differed from Dummy,
+                      characterised as "grainy and harsher". Three singles,
+                      "All Mine", "Over" and "Only You" were released,
+                      the first one achieving a Top 10 placing in the UK.
+                      In 1997, the band performed a one-off show with strings at the
+                      Roseland Ballroom in New York City. A live album primarily featuring
+                      these new orchestral arrangements of the group's songs was released in 1998.
+                      There was also a long-form VHS video of the performance,
+                      and a DVD followed in 2002, with substantial extra material including
+                      many early music videos.
+                    </p>
 
-                  <h5 class="font-weight-bold pt-3 pb-2">Hiatus (1999–2005)</h5>
-                  <p> In 1999, Portishead recorded the song "Motherless Child" with Tom Jones for his album Reload. For the next few years, the band members concentrated on solo and other pursuits. In February 2005, the band appeared live for the first time in seven years
-                    at the Tsunami Benefit Concert in Bristol. Around that time, Barrow revealed that the band was in the process of writing its third album.</p>
+                    <h5 class="font-weight-bold pt-3 pb-2">Hiatus (1999–2005)</h5>
+                    <p> 
+                      In 1999, Portishead recorded the song "Motherless Child"
+                      with Tom Jones for his album Reload. For the next few years,
+                      the band members concentrated on solo and other pursuits.
+                      In February 2005, the band appeared live for the first time 
+                      in seven years at the Tsunami Benefit Concert in Bristol.
+                      Around that time, Barrow revealed that the band 
+                      was in the process of writing its third album.
+                    </p>
 
-                  <h5 class="font-weight-bold pt-3 pb-2">Third (2008)</h5>
-                  <p>On 2 October 2007, Portishead stated that the new album Third had been mixed and was nearly complete, and was due for release in early April 2008. The release was later pushed to 28 April. On 8 and 9 December 2007, the band curated the All Tomorrow's
-                    Parties festival in Minehead, England. The festival featured their first full live sets in nearly 10 years. They premiered five tracks from the new album: "Silence", "Hunter", "The Rip", "We Carry On", and "Machine Gun". On 21 January
-                    2008, a European tour to support the album was announced, together with a headline spot at the Coachella Valley Music and Arts Festival on 26 April 2008, their only U.S. date on the tour. Third was made available on Last.fm the week
-                    before release, attracting 327,000 listeners in just under 24 hours. The album was released on 29 April 2008 to coincide with the band's appearance at Coachella.</p>
+                    <h5 class="font-weight-bold pt-3 pb-2">Third (2008)</h5>
+                    <p>
+                      On 2 October 2007, Portishead stated that the new album Third had been
+                      mixed and was nearly complete, and was due for release in early April 2008.
+                      The release was later pushed to 28 April.
+                      On 8 and 9 December 2007, the band curated the All Tomorrow's
+                      Parties festival in Minehead, England. The festival featured 
+                      their first full live sets in nearly 10 years. 
+                      They premiered five tracks from the new album: "Silence", "Hunter",
+                      "The Rip", "We Carry On", and "Machine Gun".
+                      On 21 January 2008, a European tour to support the album was announced,
+                      together with a headline spot at the Coachella Valley Music
+                      and Arts Festival on 26 April 2008, their only U.S. date on the tour.
+                      Third was made available on Last.fm the week before release,
+                      attracting 327,000 listeners in just under 24 hours.
+                      The album was released on 29 April 2008 to coincide with the band's
+                    appearance at Coachella.
+                    </p>
 
-                  <h5 class="font-weight-bold pt-3 pb-2"> Post-Third (2008–present)</h5>
-                  <p> On 18 May 2008, Barrow expressed Portishead's enthusiasm for recording new material on their official website's blog, stating that he "can't wait to write some new tunes". On 28 September 2009, Barrow announced "big plans" for a new project with a new
-                    angle, hinting that an album could arrive as soon as late 2010. Whilst the album had yet to materialise, on 9 December 2009, the band released the song "Chase the Tear" for Human Rights Day to raise money for Amnesty International
-                    UK. During Summer 2011, Portishead performed at a number of festivals in Europe. Then they visited several cities in North America during October. They finished their tour with a jaunt to Australia and New Zealand. Barrow stated
-                    in a Rolling Stone interview that he would begin work on his portion of the album in January 2012, jokingly pointing out that it could be another decade before a new album is released. In summer 2014, they played several concerts
-                    around Europe. Additionally, Portishead produced a cover of ABBA's song "SOS" for the soundtrack to the movie High-Rise which had a Gala screening at the London Film Festival on 9 October 2015. In 2016, the band won an Ivor Novello
-                    Award for Outstanding Contribution to British Music. On 22 June 2016, Portishead released an official video for "SOS" that recontextualized the song in the wake of the then-recent murder of MP Jo Cox and the Brexit vote, taking place
-                    the next day; the video ends with Beth Gibbons reaching her hand out towards the viewer and then a quote by Cox appears: "We have far more in common than which divides us."</p>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+                    <h5 class="font-weight-bold pt-3 pb-2"> Post-Third (2008–present)</h5>
+                    <p> 
+                      On 18 May 2008, Barrow expressed Portishead's enthusiasm for
+                      recording new material on their official website's blog,
+                      stating that he "can't wait to write some new tunes".
+                      On 28 September 2009, Barrow announced "big plans" for a new
+                      project with a new angle, hinting that an album could arrive
+                      as soon as late 2010. Whilst the album had yet to materialise,
+                      on 9 December 2009, the band released the song "Chase the Tear"
+                      for Human Rights Day to raise money for Amnesty International UK.
+                      During Summer 2011, Portishead performed at a number of festivals in Europe.
+                      Then they visited several cities in North America during October.
+                      They finished their tour with a jaunt to Australia and New Zealand.
+                      Barrow stated in a Rolling Stone interview that he would begin work
+                      on his portion of the album in January 2012, jokingly pointing out
+                      that it could be another decade before a new album is released.
+                      In summer 2014, they played several concerts around Europe.
+                      Additionally, Portishead produced a cover of ABBA's song "SOS"
+                      for the soundtrack to the movie High-Rise which had a Gala screening
+                      at the London Film Festival on 9 October 2015.
+                      In 2016, the band won an Ivor Novello Award for Outstanding
+                      Contribution to British Music. On 22 June 2016, Portishead released
+                      an official video for "SOS" that recontextualized the song in
+                      the wake of the then-recent murder of MP Jo Cox and the Brexit vote,
+                      taking place the next day; the video ends with Beth Gibbons
+                      reaching her hand out towards the viewer and then a quote by Cox appears:
+                      "We have far more in common than which divides us."
+                    </p>
+                    <button type="button" class="close"
+                            data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    
-      <!-- BANDS MEMBERS IMAGES -->
-      <hr class="block-divider mt-5">
-      <div class="row text-center mx-lg-5">
-        <div class="col-12 mt-4 mb-4">
-          <h3 class="uppercase mb-4">Band's members </h3>
-        </div>
+      
+        <!-- BANDS MEMBERS IMAGES -->
+        <hr class="block-divider mt-5">
+        <div class="row text-center mx-lg-5">
+          <div class="col-12 mt-4 mb-4">
+            <h3 class="uppercase mb-4">Band's members </h3>
+          </div>
 
-        <div class="col-12 col-md-4 pl-lg-5 px-5 mt-4 musician">
-          <figure class="musician-img-figure">
-            <img src="assets/images/beth-gibbon.jpg"
-                class="musician-img img-fluid"
-                alt="Beth Gibbons's image">
-            <figcaption class="musicians-names">
-              Beth Gibbon
-            </figcaption>
-          </figure>
-          <p>singer and lyricist</p>
-          <button class="btn btn-white mt-3" data-toggle="tooltip" data-html="true" data-placement="top" title="<p>She was raised on a small farm with two sisters near Exeter city, England.<br/>She has cited Nina Simone, Janis Joplin, Edith Piaf, Janis Ian and Elizabeth Fraser, as female musical influences.</p> ">
-            More about Beth&nbsp;Gibbon&nbsp;&raquo;
+          <div class="col-12 col-md-4 pl-lg-5 px-5 mt-4 musician">
+            <figure class="musician-img-figure">
+              <img src="assets/images/beth-gibbon.jpg"
+                  class="musician-img img-fluid"
+                  alt="Beth Gibbons's image">
+              <figcaption class="musicians-names">
+                Beth Gibbon
+              </figcaption>
+            </figure>
+            <p>singer and lyricist</p>
+            <button class="btn btn-white mt-3" data-toggle="tooltip"
+                    data-html="true" data-placement="top"
+                    title="<p>She was raised on a small farm with two sisters near Exeter city,
+                            England.<br/>She has cited Nina Simone, Janis Joplin,
+                            Edith Piaf, Janis Ian and Elizabeth Fraser,
+                            as female musical influences.</p>">
+              More about Beth&nbsp;Gibbon&nbsp;&raquo;
+            </button>
+          </div>
+          <div class="col-12 col-md-4 px-5 mt-4 musician">
+            <figure class="musician-img-figure">
+              <img src="assets/images/geoff-barrow.jpg" 
+                  class="musician-img img-fluid"
+                  alt="Geoff Barrow's image">
+                  <figcaption class="musicians-names">
+                    Geoff Barrow
+                  </figcaption>
+            </figure>
+              <p>composer and multi-instrumentalist</p>
+              <button class="btn btn-white mt-3" data-toggle="tooltip"
+                      data-html="true" data-placement="bottom"
+                      title="<p>Barrow is also a member of the band Beak and
+                        hip-hop supergroup Quakers and a film score composer.<br/>
+                        'I just wanted to make interesting music, proper songs
+                        with a proper life span and a decent place in people's
+                        record collections.' (c)Geoff Barrow</p>">
+                More about Geoff&nbsp;Barrow&nbsp;&raquo;
+              </button>
+          </div>
+          <div class="col-12 col-md-4 px-5 pr-lg-5 mt-4 musician">
+            <figure class="musician-img-figure">
+              <img src="assets/images/adrian-utley.jpg" 
+                  class="musician-img img-fluid" 
+                  alt="Adrian Utley's image">
+                  <figcaption class="musicians-names">
+                    Adrian Utley
+                  </figcaption>
+            </figure>
+              <p> producer and multi-instrumentalist</p>
+              <button class="btn btn-white mt-3" data-toggle="tooltip"
+                      data-html="true" data-placement="bottom"
+                      title="During his career, Utley has recorded with
+                            artists as diverse as Marilyn Manson, Jeff Beck, Torres,
+                            Perfume Genius, Alain Bashung and Marianne Faithfull.
+                            He built up a collection of vintage instruments
+                            and studio equipment.">
+                  More about Adrian&nbsp;Utley&nbsp;&raquo;
+              </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="container-fluid footer-container pt-4 pb-2">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" 
+                      href="https://www.facebook.com/portishead/">
+                    <i class="fab fa-facebook" aria-hidden="true"></i>
+                    <span class="sr-only">Facebook</span>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" 
+                      href="https://twitter.com/portisheadinfo">
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    <span class="sr-only">Twitter</span>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" 
+                      href="https://www.instagram.com/portisheadmusic/">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                    <span class="sr-only">Instagram</span>
+                </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" 
+                      href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
+                    <i class="fab fa-youtube youtube-footer" aria-hidden="true"></i>
+                    <span class="sr-only">YouTube</span>
+                </a>
+                </li>
+            </ul>
+        </div>
+      </div>
+      <div class="disclaimer text-center">
+        <small>For educational purposes only | © 2021 by
+            <a href="https://github.com/irinatu17"
+              target="_blank" class="footer-author-link">
+              Irina&nbsp;Tushina</a>
+        </small>
+      </div>
+    </footer>
+
+
+    <!-- SignUp modal -->
+    <div class="modal  fade" tabindex="-1" role="dialog" id="signUpModal">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+          <div class="modal-header">
+              <div class="w-100 text-center d-flex flex-column justify-content-center align-items-center">
+              <h3 class="modal-title modal-heading">
+                <i class="fas fa-envelope mr-1" aria-hidden="true"></i>
+                  Sign up for our newsletter</h3>
+                  <p class="signup-modal-paragraph">
+                    Stay updated with the latest news!
+                  </p>
+              </div>
+              <button type="button" class="close"
+                      data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
           </button>
-        </div>
-        <div class="col-12 col-md-4 px-5 mt-4 musician">
-          <figure class="musician-img-figure">
-            <img src="assets/images/geoff-barrow.jpg" 
-                class="musician-img img-fluid"
-                 alt="Geoff Barrow's image">
-                 <figcaption class="musicians-names">
-                  Geoff Barrow
-                </figcaption>
-          </figure>
-            <p>composer and multi-instrumentalist</p>
-            <button class="btn btn-white mt-3" data-toggle="tooltip" data-html="true" data-placement="bottom" title="<p>Barrow is also a member of the band Beak and hip-hop supergroup Quakers and a film score composer.<br/> 'I just wanted to make interesting music, proper songs with a proper life span and a decent place in people's record collections.' (c)Geoff Barrow</p> ">
-              More about Geoff&nbsp;Barrow&nbsp;&raquo;
-            </button>
-        </div>
-        <div class="col-12 col-md-4 px-5 pr-lg-5 mt-4 musician">
-          <figure class="musician-img-figure">
-            <img src="assets/images/adrian-utley.jpg" 
-                class="musician-img img-fluid" 
-                alt="Adrian Utley's image">
-                <figcaption class="musicians-names">
-                  Adrian Utley
-                </figcaption>
-          </figure>
-            <p> producer and multi-instrumentalist</p>
-            <button class="btn btn-white mt-3" data-toggle="tooltip" data-placement="bottom" title="During his career, Utley has recorded with artists as diverse as Marilyn Manson, Jeff Beck, Torres, Perfume Genius, Alain Bashung and Marianne Faithfull. He built up a collection of vintage instruments and studio equipment.">
-              More about Adrian&nbsp;Utley&nbsp;&raquo;
-            </button>
-        </div>
+          </div>
+          <div class="modal-body">
+              <form class="form-inline w-100 my-2" id="signup-form">
+              <input type="email" class="form-control signup-modal-input mr-2 pb-2"
+                    id="email-signup" placeholder="Email address" required>
+              <button type="submit" class="btn btn-red-secondary">
+                Subscribe
+              </button>
+              </form>
+          </div>
+          </div>
       </div>
-    </div>
-  </section>
+  </div>
 
-  <!-- FOOTER -->
-  <footer class="container-fluid footer-container pt-4 pb-2">
-    <div class="row">
-      <div class="col-12 d-flex justify-content-center">
-          <ul class="list-inline social-links">
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.facebook.com/portishead/">
-                  <i class="fab fa-facebook" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-              </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://twitter.com/portisheadinfo">
-                  <i class="fab fa-twitter" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-              </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.instagram.com/portisheadmusic/">
-                  <i class="fab fa-instagram" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-              </a>
-              </li>
-              <li class="list-inline-item">
-                  <a target="_blank" href="https://www.youtube.com/channel/UC243a5RnwmItLvwhl0YOxbg">
-                  <i class="fab fa-youtube youtube-footer" aria-hidden="true"></i>
-                  <span class="sr-only">YouTube</span>
-              </a>
-              </li>
-          </ul>
-      </div>
-    </div>
-    <div class="disclaimer text-center">
-      <small>For educational purposes only | © 2021 by
-          <a href="https://github.com/irinatu17" target="_blank" class="footer-author-link">
-            Irina&nbsp;Tushina</a>
-      </small>
-    </div>
-  </footer>
-
-
-  <!-- SignUp modal -->
-  <div class="modal  fade" tabindex="-1" role="dialog" id="signUpModal">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-        <div class="modal-header">
-            <div class="w-100 text-center d-flex flex-column justify-content-center align-items-center">
-            <h3 class="modal-title modal-heading"><i class="fas fa-envelope mr-1" aria-hidden="true"></i>
-                Sign up for our newsletter</h3>
-                <p class="signup-modal-paragraph">Stay updated with the latest news!</p>
-            </div>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
-        </div>
-        <div class="modal-body">
-            <form class="form-inline w-100 my-2" id="signup-form">
-            <input type="email" class="form-control signup-modal-input mr-2 pb-2" id="email-signup" placeholder="Email address" required>
-            <button type="submit" class="btn btn-red-secondary">Subscribe</button>
-            </form>
-        </div>
-        </div>
-    </div>
-</div>
-
-  <!-- SCRIPTS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="assets/js/main.js"></script>
-</body>
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="assets/js/main.js"></script>
+  </body>
 
 </html>

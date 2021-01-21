@@ -593,7 +593,7 @@ input[type=text]:focus:invalid {
     }
 }
 
-/*Large screens media queries*/
+/*Largest screens media queries*/
 @media (min-width: 1700px){ 
     .container {
         max-width: 85%;
