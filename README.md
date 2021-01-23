@@ -1,6 +1,8 @@
-
-# Portishead Official Website
-First milestone project: User-Centric Frontend Development - Code Institute.
+# Portishead 
+The live website can be viewed [here](https://irinatu17.github.io/Portishead/)  
+<img src="https://i.ibb.co/Jc9CnX9/home-page.png" alt="home page mockup" target="_blank" rel="noopener" width="850">
+   
+1st milestone project: User-Centric Frontend Development - [Code Institute](https://codeinstitute.net/) assignemnt project.
 
 This is the website of the British music band "Portishead". It contains information about the band, as well as their photos, videos and audio.
 In addition, the website gives the opportunity to contact Portishead's management, to be aware of the latest news and tours and it provides the links for following Portishead on the social media.
