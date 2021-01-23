@@ -14,6 +14,8 @@ See Portishead's offical website [here](https://www.portishead.co.uk/)
 
 ## Table of Contents
 1. [**UX**](#ux)
+    - [User Stories](#user-stories)
+    - [Design](#design)
 2. [**Technologies**](#technologies)
     - [**Languages**](#languages)
     - [**Libraries and Frameworks**](#libraries-and-frameworks)
@@ -33,9 +35,25 @@ See Portishead's offical website [here](https://www.portishead.co.uk/)
 ---
 
 ## UX
-My goal in design was to make it simple to access information on the site. The dark-grey colours were chosen to create the mood and atmosphere of psychedelic, deep and depressive trip-hop music. As well as that, the dark-red scheme was chosen to highlight some details and to catch the user’s attention. 
+### User Stories
+- As a user, I expect to access the website from any device, so that I can use the website anytime and anywhere.
+- As a user, I expect to easily navigate the website, so that I can quickly find what I'm looking for.
+- As a user, I want to find and read more information about the band and band members, the band's history.
+- As a user, I want to check if can see the band play live in my city and view their tours schedule.
+- As a user, I want to have a convenient access all the music that I can listen to or buy their album.
+- As a user, I want to be able to book the band for my private event.
+- As a user, I want to subscribe to a newsletter to be aware of the latest news.
+- As a user,  I expect to view and download photos of the band.
+- As a user, I want to be able to contact the Portishead managment team.
+- As a user, I want to easily find the links to their social media accounts.
 
-For fans and potential fans of Portishead, I wanted to provide them a brief overview about the music band. Clicking the “Read more” button users will be able to get the full information about the band’s history. In addition to this, in the “About” section I’ve provide some interesting facts about each band’s members, as well as their photos. The section “Media” includes photos, audio and video clips of the band, giving a quick access to their back catalogue. In order to showcase their availability to perform at events, the “Tours” section contains the enquiry form for those, who would like to invite the band to their events or organise a concert. This section also provides the information about the Portishead’s tours. For the ease of access and opportunity to follow Portishead on the social media, the links to Facebook, Instagram, Twitter and YouTube were included in the website.
+### Design
+The goal in design was to create a website that is overall user friendly, has a modern feel with emphasis on providing information about the music band in a readable and eye-catching way.
+- **Framework** [Bootstrap](https://www.bootstrapcdn.com/) was chosen for this project for its modern interface, ease of use and ability to be easily customized. It is used for creating features such as navbar, forms, modals, as well as for the layout.
+- **Color scheme** : The **dark-grey** and **black** colours were chosen to create and reflect the mood and atmosphere of psychedelic and deep trip-hop music. As well as that, the **dark-red** colour was chosen to highlight some details and to catch the user’s attention (for CTA buttons, dividers, music section background).    
+ Different shades of grey colour and shadows allow us to create clean and neat backgrounds and volume effect accross the website.   
+ - **Typography**:
+There are three fonts used across the project that I find a good combination: simple and modern [PT+Sans](https://fonts.google.com/specimen/PT+Sans) used as a primary font, decorative and unusual [Indie+Flower](https://fonts.google.com/specimen/Indie+Flower) and stylish [Bitter](https://fonts.google.com/specimen/Bitter).
 
 ## Technologies
 ### Languages
