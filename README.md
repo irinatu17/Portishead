@@ -2,10 +2,34 @@
 The live website can be viewed [here](https://irinatu17.github.io/Portishead/)  
 <img src="https://i.ibb.co/Jc9CnX9/home-page.png" alt="home page mockup" target="_blank" rel="noopener" width="850">
    
-1st milestone project: User-Centric Frontend Development - [Code Institute](https://codeinstitute.net/) assignemnt project.
+1st milestone project: User-Centric Frontend Development - [Code Institute](https://codeinstitute.net/) assignment project.
 
-This is the website of the British music band "Portishead". It contains information about the band, as well as their photos, videos and audio.
+This is the website of the British music band "Portishead" for fans and potentials fans. It contains information about the band, as well as their photos, videos and audio.
 In addition, the website gives the opportunity to contact Portishead's management, to be aware of the latest news and tours and it provides the links for following Portishead on the social media.
+
+See Portishead's offical website [here](https://www.portishead.co.uk/)
+
+---
+
+
+## Table of Contents
+1. [**UX**](#ux)
+2. [**Features**](#features)
+    - [**Existing Features**](#existing-features)
+    - [**Features Left to Implement**](#features-left-to-implement)
+3. [**Technologies**](#technologies)
+    - [**Languages**](#languages)
+    - [**Libraries and Frameworks**](#libraries-and-frameworks)
+    - [**Tools**](#tools)
+4. [**Testing**](#testing)
+5. [**Deployment**](#deployment)
+6. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Media**](#media)
+    - [**Acknowledgements**](#acknowledgements)
+7. [**Disclaimer**](#disclaimer)
+
+---
 
 ## UX
 My goal in design was to make it simple to access information on the site. The dark-grey colours were chosen to create the mood and atmosphere of psychedelic, deep and depressive trip-hop music. As well as that, the dark-red scheme was chosen to highlight some details and to catch the user’s attention. 
@@ -32,7 +56,8 @@ For fans and potential fans of Portishead, I wanted to provide them a brief over
 - [GIMP2](https://www.gimp.org/) - for editing and resizing images.
 - [ImgBB](https://imgbb.com/) - to host images used in README.
 
-## Features
+## Features   
+### Existing Features  
 The “SignUp” modal allows users to sign up in order to get the latest news by e-mail, by filling out the form and submitting it. As well as that, the “Enquire” modal allows users to contact the Portishead’s management by filling out the form.
 The navbar stays collapsed on the mobile devices, that was achieved by including extra JavaScript function using the Bootstrap.
 
@@ -61,5 +86,10 @@ The hover over transition function(section ‘About’) was found through this t
 
 I also received inspiration for this project from my mentor’s [Rahul Lakhanpal](https://www.rahullakhanpal.in/) works. 
 
-**This is for educational use only.**
+## Disclaimer
+This site is made for **educational purposes** only.   
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
