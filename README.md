@@ -11,9 +11,24 @@ My goal in design was to make it simple to access information on the site. The d
 For fans and potential fans of Portishead, I wanted to provide them a brief overview about the music band. Clicking the “Read more” button users will be able to get the full information about the band’s history. In addition to this, in the “About” section I’ve provide some interesting facts about each band’s members, as well as their photos. The section “Media” includes photos, audio and video clips of the band, giving a quick access to their back catalogue. In order to showcase their availability to perform at events, the “Tours” section contains the enquiry form for those, who would like to invite the band to their events or organise a concert. This section also provides the information about the Portishead’s tours. For the ease of access and opportunity to follow Portishead on the social media, the links to Facebook, Instagram, Twitter and YouTube were included in the website.
 
 ## Technologies
-1.	HTML
-2.	CSS
-3.	Bootstrap (4.3.x)
+### Languages
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+- [JavaScript](https://www.javascript.com/)
+
+### Libraries and Frameworks
+- [Bootstrap](https://www.bootstrapcdn.com/) - as the front-end framework for layout and design.
+- [Google Fonts](https://fonts.google.com/) - to import fonts.
+- [FontAwesome](https://fontawesome.com/) - to provide icons used across the project. 
+- [Fancybox](https://fancyapps.com/fancybox/3/) - used for Gallery section.
+
+### Tools
+- [GitPod](https://www.gitpod.io/) - an online IDE for developing this project.
+- [Git](https://git-scm.com/) - for version control.
+- [GitHub](https://git-scm.com/) - for remotely storing project's code.
+- [TinyPng](https://tinypng.com/) - for compressing images.
+- [GIMP2](https://www.gimp.org/) - for editing and resizing images.
+- [ImgBB](https://imgbb.com/) - to host images used in README.
 
 ## Features
 The “SignUp” modal allows users to sign up in order to get the latest news by e-mail, by filling out the form and submitting it. As well as that, the “Enquire” modal allows users to contact the Portishead’s management by filling out the form.
