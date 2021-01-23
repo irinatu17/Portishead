@@ -14,18 +14,19 @@ See Portishead's offical website [here](https://www.portishead.co.uk/)
 
 ## Table of Contents
 1. [**UX**](#ux)
-2. [**Features**](#features)
-    - [**Existing Features**](#existing-features)
-    - [**Features Left to Implement**](#features-left-to-implement)
-3. [**Technologies**](#technologies)
+2. [**Technologies**](#technologies)
     - [**Languages**](#languages)
     - [**Libraries and Frameworks**](#libraries-and-frameworks)
     - [**Tools**](#tools)
+3. [**Features**](#features)
+    - [**Existing Features**](#existing-features)
+    - [**Features Left to Implement**](#features-left-to-implement)
 4. [**Testing**](#testing)
 5. [**Deployment**](#deployment)
 6. [**Credits**](#credits)
     - [**Content**](#content)
     - [**Media**](#media)
+    - [**Code**](#code)
     - [**Acknowledgements**](#acknowledgements)
 7. [**Disclaimer**](#disclaimer)
 
@@ -74,17 +75,31 @@ This site was tested across multiple browsers (Chrome, Internet Explorer, FireFo
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order to the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+---
 
 ## Credits
-
 ### Content
-The text for section “About” was copied from the Wikipedia article [“Portishead(band)”](https://en.wikipedia.org/wiki/Portishead_(band)). 
-### Media
-The photos used in this site were obtained from different websites: Discogs.com(https://www.discogs.com/artist/2774-Portishead), IMDB.com(https://www.imdb.com/name/nm1011954/mediaviewer/rm4271994368), BBC.co.uk (https://www.bbc.co.uk/music/artists/8f6bd1e4-fbe1-4f50-aa9b-94c450ec0f11).
-### Acknowledgements
-The hover over transition function(section ‘About’) was found through this tutorial [here](https://css-tricks.com/a-really-nice-way-to-handle-popup-information/).
+- The text for section “About” was copied from the Wikipedia article [“Portishead(band)”](https://en.wikipedia.org/wiki/Portishead_(band)).  
 
-I also received inspiration for this project from my mentor’s [Rahul Lakhanpal](https://www.rahullakhanpal.in/) works. 
+### Media
+- Portishead "P" logo for **Favicon**: ["Wikipedia article"](https://commons.wikimedia.org/wiki/File:Portishead.svg)   
+- **Home page** background:  [Unsplash](https://unsplash.com/)
+- Music section **albums** images are taken from Amazon: [Dummy](https://images-na.ssl-images-amazon.com/images/I/713j89t%2BDkL._SX522_.jpg), [Portishead](https://images-na.ssl-images-amazon.com/images/I/71k1xE7ELoL._SX522_.jpg), [Third](https://images-na.ssl-images-amazon.com/images/I/314g8%2BGMLEL.jpg). 
+- All Portishead band's images (used in the Gallery and About sections and as a background of Tours section) were obtained mostly from [Portishead Official Instagram](https://www.instagram.com/portisheadmusic/), and also from [Discogs](https://www.discogs.com/artist/2774-Portishead).
+
+### Code
+-  Gallery section was built using [Fancybox](https://fancyapps.com/fancybox/3/).
+-  Scroll down button animation is taken and modified from [CodePen Demo: CSS scroll down button](https://codepen.io/nxworld/pen/OyRrGy)
+-  Hover blur effect on musicians images is taken and modified from the Natours project of [Advanced CSS and SASS: Flexbox, Grid, Animations and More! by Jonas Schmedtmann](https://www.udemy.com/course/advanced-css-and-sass/)
+### Acknowledgements
+ I would like to thank everyone who has helped me throughout the development of this project: my mentor [Rahul Lakhanpal](https://www.rahullakhanpal.in/),
+ Code Institute tutors, fellow students, my friends and my family for the time, assistance and support!
+
+---
 
 ## Disclaimer
 This site is made for **educational purposes** only.   
