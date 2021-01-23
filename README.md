@@ -108,7 +108,18 @@ The fans and potential fans user story achieved the intended outcome of providin
 If you try to submit the SignUp or Enquire form with an invalid email address, there will be an error noting the invalid email address. Furthermore, the 'required' attribute is added to the 'name,' 'email,' ‘password’ and 'repeat password' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. 
 All links in the footer will open in a new tab using 'target="_blank". All links have been manually tested to ensure that they are pointing to the correct destination.
 
-This site was tested across multiple browsers (Chrome, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 5, 7, iPad, Samsung Galaxy and Sony Xperia) to ensure compatibility and responsiveness. During the testing phase, I realized that in the gallery section of media page pictures were collapsing, covering the following ones. To fix this, I applied col-md-6 col-lg-3 property value to the div to make it properly responsive. 
+#### Validators
+**Html**   
+All the HTML files were tested through [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input). No errors were found across the html pages.
+**CSS**
+CSS files were tested through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). Since it does not recognize CSS variables (I use `:root{}` for colours and fonts variables), there were several Parse Errors found.  
+As well as that, there are a few error warnings for some -webkit, -moz pseudo element selectors. Both errors can be safely ignored as they are not errors in fact. The rest of the CSS files was completely valid.   
+
+#### Compatibility and Responsiveness
+This website had been being tested during the development across **multiple browsers** (Chrome, Safary, Opera, FireFox, Internet Explorer) and on **multiple devices**: mobile (iPhone 5, 6, 8, Samsung Galaxy, Sony Xperia), tablets(iPad, iPadPro) and laptops (with HiDPI and MDPI and touch screens), as well as on extra-large screen(1980 x 1080).     
+As well as on **Google Chrome's developer tools** to see how it looks across all the different device screen sizes to ensure compatibility and responsiveness.   
+I also used [Am I Responsive](http://ami.responsivedesign.is/) online tool for checking responsiveness on different devices.   
+Plenty of changes were made and necessary media queries added to make the website fully responsive.   
 
 ## Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order to the site to deploy correctly on GitHub pages, the landing page must be named index.html.
