@@ -453,6 +453,10 @@ input[type=text]:focus:invalid {
     letter-spacing: 1.2px;
 }
 
+.embed-responsive-item {
+    height: 19rem;
+}
+
 /* FOOTER */
 .footer-container {
     background: linear-gradient(#808080, #000);
