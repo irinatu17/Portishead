@@ -77,11 +77,30 @@ There are three fonts used across the project that I find a good combination: si
 
 ## Features   
 ### Existing Features  
-The “SignUp” modal allows users to sign up in order to get the latest news by e-mail, by filling out the form and submitting it. As well as that, the “Enquire” modal allows users to contact the Portishead’s management by filling out the form.
-The navbar stays collapsed on the mobile devices, that was achieved by including extra JavaScript function using the Bootstrap.
+#### Navbar
+The navbar is fixed at the top of the page, this allows a user to easily navigate throughout the website. The logo is located in the top left corner on a desktop and in the center on smaller devices. It redirects the user to the home page when clicked.    
+On the smaller resolutions the navbar is collapsed into a burger icon. Menu links appear when the burger icon is clicked and collapse back, when clicked again.    
+#### Footer
+The footer feature links to the social media accounts which open in a new tab (by using `'target="_blank"`). As well, it contains a disclaimer and link to the author GitHub page.
+#### Signup to Newsletter Form
+The signup modal is available on navbar and can be open on all pages. It allows users to sign up in order to get the latest news by e-mail, by filling out the form and submitting it.
+#### Contact form
+The contact modal is available on navbar and can be open on all pages. It allows users to contact the Portishead’s management by filling out the form. Validation is in place against empty fields, for better UX different border colors are used for validation (red-invalid, green - valid).
+#### Home page
+Home page simply contains a hero image, main heading, quote paragraph and Scroll to the bottom arrow button tha leads to the About section when clicked.
+About section contains a general info about the band (full biography available in the About modal when the "Read more" button is clicked). Additionaly, there are bands members' images with some more info about them.
+#### Tours page
+Tours page simply contains a table of coming tour events with the photo, place, date and a link to the resource where a user can buy tickets.
+Apart from that, it contains a paragraph and link to the Contact form for booking the band for the private events.
+#### Media page
+Media page includes:
+- Gallery section with 15 images that can be viewed and downloaded
+- Music section with links to Apple and Google pay for buying albums and Spotify iframe included for all 3 albums
+- Video section with 4 Youtube videos implemented with iframes and a link to the Youtube official chanel of the band
 
 ### Features Left to Implement
-In the future, I would like to add new video clips and audio materials when they will be finished and published as well as some new photos from the coming concerts in order to create a more comprehensive ‘Media' section. I would also like to renew the information about the Portishead’s tours while they will be set up.
+- In the future, I would like to implement back-end for contact and sign-up form to make them fully functional.    
+- Another feature that I would implement is a Store page where users can buy merchandise from the Portishead band.
 
 ## Testing
 The fans and potential fans user story achieved the intended outcome of providing them with a showcase of Portishead's music life. On the home section, they can see the phrase from one of the band's songs and see the photo from the Portishead's concert to get the first impression about them. Next, users can see the separate band's members pictures as well as to read information about them by hovering over the images.  They are also able to view my social media profiles via clicking on the icons in the footer. The users can fill out the SignUp form as well as the Enquire form in order to sign up or invite Portishead for their own party respectively. Considering the media section, fans can listen to Portishead's music using the Spotify links in the music section. They are also able to watch band's videos by clicking on the YouTube links in the video section.
