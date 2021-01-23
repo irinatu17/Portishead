@@ -14,8 +14,8 @@ See Portishead's offical website [here](https://www.portishead.co.uk/)
 
 ## Table of Contents
 1. [**UX**](#ux)
-    - [User Stories](#user-stories)
-    - [Design](#design)
+    - [**User Stories**](#user-stories)
+    - [**Design**](#design)
 2. [**Technologies**](#technologies)
     - [**Languages**](#languages)
     - [**Libraries and Frameworks**](#libraries-and-frameworks)
