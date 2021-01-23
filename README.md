@@ -55,6 +55,11 @@ The goal in design was to create a website that is overall user friendly, has a 
  - **Typography**:
 There are three fonts used across the project that I find a good combination: simple and modern [PT+Sans](https://fonts.google.com/specimen/PT+Sans) used as a primary font, decorative and unusual [Indie+Flower](https://fonts.google.com/specimen/Indie+Flower) and stylish [Bitter](https://fonts.google.com/specimen/Bitter).
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+
 ## Technologies
 ### Languages
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
@@ -74,6 +79,11 @@ There are three fonts used across the project that I find a good combination: si
 - [TinyPng](https://tinypng.com/) - for compressing images.
 - [GIMP2](https://www.gimp.org/) - for editing and resizing images.
 - [ImgBB](https://imgbb.com/) - to host images used in README.
+
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 
 ## Features   
 ### Existing Features  
@@ -102,6 +112,11 @@ Media page includes:
 - In the future, I would like to implement back-end for contact and sign-up form to make them fully functional.    
 - Another feature that I would implement is a Store page where users can buy merchandise from the Portishead band.
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
+
 ## Testing
 The fans and potential fans user story achieved the intended outcome of providing them with a showcase of Portishead's music life. On the home section, they can see the phrase from one of the band's songs and see the photo from the Portishead's concert to get the first impression about them. Next, users can see the separate band's members pictures as well as to read information about them by hovering over the images.  They are also able to view my social media profiles via clicking on the icons in the footer. The users can fill out the SignUp form as well as the Enquire form in order to sign up or invite Portishead for their own party respectively. Considering the media section, fans can listen to Portishead's music using the Spotify links in the music section. They are also able to watch band's videos by clicking on the YouTube links in the video section.
 
@@ -121,8 +136,33 @@ As well as on **Google Chrome's developer tools** to see how it looks across all
 I also used [Am I Responsive](http://ami.responsivedesign.is/) online tool for checking responsiveness on different devices.   
 Plenty of changes were made and necessary media queries added to make the website fully responsive.   
 
+<div align="right">
+    <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ## Deployment
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order to the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+This site is hosted using **GitHub pages**, deployed directly from the master branch, the live version can be found [here](https://irinatu17.github.io/Portishead/index.html).
+The deployed version of the site is the most current version in the repository. 
+To deploy this page to GitHub Pages from its GitHub repository the following steps have to be made: 
+1. From the menu items near the top of the page, select **Settings**
+2. Scroll down to the **GitHub Pages** section
+3. Under **Source** click the drop-down menu labelled None and select **Master Branch**.   
+On selecting Master Branch the page will be automatically refreshed and the website is now deployed
+5. Scroll back down to the **GitHub Pages** section in **Settings** to retrieve the link to the deployed website. It may take a short time to go live, but typically less than 60 seconds
+
+### How to run locally
+You can clone this repository directly into the editor of your choice by pasting the following command into the terminal:   
+`git clone https://github.com/irinatu17/Portishead.git`    
+Alternatively, you to **clone** this project from GitHub follow the steps:
+1. Under the repository name, click **Clone or download**
+2. In the **Clone with HTTPs section**, copy the clone URL for the repository
+3. In your local IDE open **Git Bash**
+4. Change the current working directory to the location where you want the cloned directory to be made
+5. Type `git clone`, and then paste the URL you copied in Step 2   
+`git clone https://github.com/irinatu17/Portishead.git`    
+6. Press Enter. Your local clone will be created   
+
+Further reading and troubleshooting on cloning a repository from GitHub can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
 </div>
